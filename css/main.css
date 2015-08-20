@@ -114,4 +114,7 @@ section.bc-1 h1 {
   -webkit-border-radius: 0px;
   font-size: 24px;
   font-family: "Open Sans", sans-serif;
+  width: 100%;
+  max-width: 272px;
+  border-radius: 8px;
 }
