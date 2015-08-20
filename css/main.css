@@ -40,6 +40,7 @@ section.bc-1 p {
 }
 /* line 27, main.sass */
 section.bc-1 h1 {
+  margin: 80px 0 0 0;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   letter-spacing: -1.8px;
