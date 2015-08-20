@@ -135,7 +135,7 @@ section.bc-1 h1 {
   }
 }
 /* line 102, main.sass */
-.btn:hover {
+.btn:hover, .btn:active, .btn:focus {
   background: #003cab;
   border-style: Solid;
   border-color: white;
@@ -143,18 +143,7 @@ section.bc-1 h1 {
   border-radius: 0px;
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
-  font-size: 24px;
-  font-family: "Open Sans", sans-serif;
-  width: 100%;
-  max-width: 272px;
   border-radius: 8px;
-  margin: 30px auto 0;
   display: block;
   padding: 10px;
-}
-@media (min-width: 1280px) {
-  /* line 102, main.sass */
-  .btn:hover {
-    margin: 30px auto 0 80px;
-  }
 }

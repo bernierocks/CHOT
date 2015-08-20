@@ -11,9 +11,11 @@ setInterval(function(){
 }, 5000);
     $button.onclick(
       function() {
-        $( this ).addClass( "animated fadOutDown" );
+        $( this ).addClass( "animated fadeOutDown" );
     );
 
+          
+          
 var $fader = $(".fade");
 setInterval(function(){
     $fader.toggleClass("uk-animation-fade");
