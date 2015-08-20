@@ -1,14 +1,14 @@
-/* line 15, main.sass */
+/* line 23, main.sass */
 * {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-/* line 18, main.sass */
+/* line 26, main.sass */
 body {
   background-color: white;
 }
 
-/* line 21, main.sass */
+/* line 29, main.sass */
 footer {
   background-color: #610000;
   color: white;
@@ -17,16 +17,16 @@ footer {
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
   filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000');
 }
-/* line 27, main.sass */
+/* line 35, main.sass */
 footer p {
   margin: 0;
 }
 
-/* line 30, main.sass */
+/* line 38, main.sass */
 section.bc-1 {
   padding: 58px 0 75px;
 }
-/* line 32, main.sass */
+/* line 40, main.sass */
 section.bc-1 .hero-bg {
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
   filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000');
@@ -34,30 +34,30 @@ section.bc-1 .hero-bg {
   min-height: 506.975px;
 }
 @media (max-width: 767px) {
-  /* line 32, main.sass */
+  /* line 40, main.sass */
   section.bc-1 .hero-bg {
     padding: 20px;
   }
 }
 @media (max-width: 480px) {
-  /* line 32, main.sass */
+  /* line 40, main.sass */
   section.bc-1 .hero-bg {
     padding: 20px;
   }
 }
-/* line 40, main.sass */
+/* line 48, main.sass */
 section.bc-1 .bc-placeholder {
   margin: 0 auto;
   display: block;
 }
-/* line 41, main.sass */
+/* line 49, main.sass */
 section.bc-1 .bc-placeholder img {
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
   filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000');
   margin: 0 auto;
 }
 @media (min-width: 1280px) {
-  /* line 40, main.sass */
+  /* line 48, main.sass */
   section.bc-1 .bc-placeholder {
     position: absolute;
     margin: -12px 0 0 66px;
@@ -65,7 +65,7 @@ section.bc-1 .bc-placeholder img {
     height: 540px;
   }
 }
-/* line 52, main.sass */
+/* line 60, main.sass */
 section.bc-1 p {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -74,12 +74,12 @@ section.bc-1 p {
   padding: 0;
 }
 @media (min-width: 1280px) {
-  /* line 52, main.sass */
+  /* line 60, main.sass */
   section.bc-1 p {
     max-width: 457px;
   }
 }
-/* line 60, main.sass */
+/* line 68, main.sass */
 section.bc-1 h1 {
   margin: 80px 0 0 0;
   font-family: Georgia, Times, "Times New Roman", serif;
@@ -89,19 +89,19 @@ section.bc-1 h1 {
   margin-bottom: 18px;
 }
 @media (max-width: 767px) {
-  /* line 60, main.sass */
+  /* line 68, main.sass */
   section.bc-1 h1 {
     margin: 40px 0 0 0;
   }
 }
 @media (max-width: 480px) {
-  /* line 60, main.sass */
+  /* line 68, main.sass */
   section.bc-1 h1 {
     margin: 40px 0 0 0;
   }
 }
 
-/* line 72, main.sass */
+/* line 80, main.sass */
 .btn {
   background: #002a78;
   background: #002a78;
@@ -120,19 +120,23 @@ section.bc-1 h1 {
   margin: 30px auto 0;
   display: block;
   padding: 10px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  transition: all 0.2s ease, padding 0.8s linear;
 }
 @media (min-width: 1280px) {
-  /* line 72, main.sass */
+  /* line 80, main.sass */
   .btn {
     margin: 30px auto 0 80px;
   }
 }
-/* line 92, main.sass */
+/* line 101, main.sass */
 .btn:hover {
-  background: #002a78;
-  background: #002a78;
+  background: #003cab;
   border-style: Solid;
-  border-color: white;
   border-color: white;
   border-width: 2px;
   border-radius: 0px;
@@ -148,7 +152,7 @@ section.bc-1 h1 {
   padding: 10px;
 }
 @media (min-width: 1280px) {
-  /* line 92, main.sass */
+  /* line 101, main.sass */
   .btn:hover {
     margin: 30px auto 0 80px;
   }

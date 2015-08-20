@@ -12,6 +12,14 @@
 =shadow-this
     box-shadow : 0px 0px 25px rgba(0, 0, 0, 0.25)
     filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000') 
+    
+=transition
+    -webkit-transition: all 0.3s ease
+    -moz-transition: all 0.3s ease
+    -o-transition: all 0.3s ease   
+    -ms-transition: all 0.3s ease
+    transition: all 0.3s ease
+    transition: all 0.2s ease, padding 0.8s linear
 *
     font-family: 'Source Sans Pro', sans-serif
 
@@ -89,11 +97,10 @@ section.bc-1
     padding: 10px
     +breakpoint(md)
         margin: 30px auto 0 80px
+    +transition
     &:hover
-        background : #002A78
-        background : rgba(0, 42, 120, 1)
+        background : lighten(#002A78, 10%)
         border-style : Solid
-        border-color : #FFFFFF
         border-color : rgba(255, 255, 255, 1)
         border-width : 2px
         border-radius : 0px
