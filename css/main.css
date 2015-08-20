@@ -127,3 +127,29 @@ section.bc-1 h1 {
     margin: 30px auto 0 80px;
   }
 }
+/* line 92, main.sass */
+.btn:hover {
+  background: #002a78;
+  background: #002a78;
+  border-style: Solid;
+  border-color: white;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  max-width: 272px;
+  border-radius: 8px;
+  margin: 30px auto 0;
+  display: block;
+  padding: 10px;
+}
+@media (min-width: 1280px) {
+  /* line 92, main.sass */
+  .btn:hover {
+    margin: 30px auto 0 80px;
+  }
+}
