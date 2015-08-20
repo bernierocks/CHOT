@@ -1,3 +1,16 @@
+// Mixins
+=breakpoint($point)
+    @if $point == md
+        @media (min-width: 768px) 
+            @content
+    @if $point == sm
+        @media (max-width: 767px) 
+            @content
+    @if $point == xs
+        @media (max-width: 480px)
+            @content    
+
+
 *
     font-family: 'Source Sans Pro', sans-serif
 
@@ -22,7 +35,8 @@ section.bc-1
         font-size : 17px
         line-height : 26.4px
         color : #FFFFFF
-        //max-width: 457px
+        +breakpoint(md)
+            max-width: 457px
         padding: 18px 0
     h1
         margin: 80px 0 0 0

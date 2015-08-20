@@ -1,35 +1,35 @@
-/* line 1, main.sass */
+/* line 14, main.sass */
 * {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-/* line 4, main.sass */
+/* line 17, main.sass */
 body {
   background-color: white;
 }
 
-/* line 7, main.sass */
+/* line 20, main.sass */
 footer {
   background-color: #610000;
   color: white;
   padding: 26px 0 43px;
   font-size: 17px;
 }
-/* line 12, main.sass */
+/* line 25, main.sass */
 footer p {
   margin: 0;
 }
 
-/* line 15, main.sass */
+/* line 28, main.sass */
 section.bc-1 {
   padding: 58px 0 75px;
 }
-/* line 17, main.sass */
+/* line 30, main.sass */
 section.bc-1 .hero-bg {
   background-color: #610000;
   min-height: 506.975px;
 }
-/* line 20, main.sass */
+/* line 33, main.sass */
 section.bc-1 p {
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
@@ -37,7 +37,13 @@ section.bc-1 p {
   color: white;
   padding: 18px 0;
 }
-/* line 27, main.sass */
+@media (min-width: 768px) {
+  /* line 33, main.sass */
+  section.bc-1 p {
+    max-width: 457px;
+  }
+}
+/* line 41, main.sass */
 section.bc-1 h1 {
   margin: 80px 0 0 0;
   font-family: Georgia, Times, "Times New Roman", serif;
