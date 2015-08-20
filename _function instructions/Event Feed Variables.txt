@@ -1,0 +1,30 @@
+EVENT FEED FUNCTION VARIABLES (v1)
+
+Optional replacement keys for Event template files.  Just use the ##VARIABLES## listed below in place 
+title of event			##TITLE##
+description				##DESCRIPTION##
+details					##DETAILS##
+highlight				##HIGHLIGHT## - Set the highlight_class in the options, and then use this var in the top level of your individual event items e.g.: <div class="event-item ##HIGHLIGHT##">...</div>
+
+start time				##START_TIME##
+end time				##END_TIME##
+day						##DAY##
+month					##MONTH##
+year					##YEAR##
+full date				##DATE##
+
+link 1 title			##LINK_1_TITLE##
+link 1 URL				##LINK_1_URL##
+link 2 title			##LINK_2_TITLE##
+link 2 URL				##LINK_2_URL##
+
+contact name			##CONTACT_NAME##
+contact email			##CONTACT_EMAIL##
+contact phone			##CONTACT_PHONE##
+
+location name			##LOCATION_NAME##
+address1				##ADDRESS_1##
+address2				##ADDRESS_2## - only shows up if it contains information
+city					##CITY##
+state					##STATE##
+zip						##ZIP##

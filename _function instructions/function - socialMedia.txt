@@ -1,0 +1,28 @@
+Current social media function:
+
+Calling socialMedia('SOCIAL MEDIA ICON', 'SIZE', 'COLOR', 'CLASS'):
+This is a PHP function, which means that if you're adding it to regular HTML, it must be surrounded in PHP tags(<? ?>)
+socialMedia() currently has 3 options and they should be written in this order:
+-SOCIAL MEDIA ICON
+-SIZE (default 25px high)
+-COLOR (default white, background color none)
+-CLASS (optional - adds the class you designate to the social media icon.  This can later be styled easily in CSS)
+
+The size and color are both optional.  If you wanted a white, 25px, facebook icon it could be written like this:
+socialMedia('facebook')
+
+If you needed a blue 35px twitter icon, it would be written like this in an HTML document (simply remove <? ?> for writing in PHP) :
+<?socialMedia('twitter','35px','blue')?>
+
+The current social media icon options are (all lower case!!):
+blogger
+facebook
+google
+instagram
+instagram2
+linkedin
+pinterest
+tumbler
+twitter
+vimeo
+youtube

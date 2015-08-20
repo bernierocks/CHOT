@@ -1,0 +1,2 @@
+$my_page = file_get_contents('about_us.htm'); //step one = get the page and put it in a var
+$my_output = strip_tags($my_page); //step twp = take that var and remove the tags from it

@@ -1,0 +1,18 @@
+<span class="cms-hidden"><p>To change the photo that shows up in the secondary content area of the front page&hellip;</p>
+
+<ol>
+	<li><span class="cms-hidden">Click in this message box to place your cursor after the existing photo below</span></li>
+	<li><span class="cms-hidden">Click on the &quot;Image&quot; icon above (2nd row, last button)</span></li>
+	<li><span class="cms-hidden">Switch to the &quot;Upload&quot; tab</span></li>
+	<li><span class="cms-hidden">Choose the picture to upload and click to &quot;Send it to Server&quot;</span></li>
+	<li><span class="cms-hidden">Delete previous picture.</span></li>
+</ol>
+<span class="cms-hidden">Photos must be no wider than 247px. Do not erase these instructions.&nbsp;<br />
+&nbsp; </span>
+
+<hr /></span>
+
+
+
+
+//***CK Editor likes to throw in the extra span and p tags. They aren't nessecary, but they don't hurt anything either
