@@ -29,3 +29,17 @@ section.bc-1 .hero-bg {
   background-color: #610000;
   min-height: 506.975px;
 }
+/* line 20, main.sass */
+section.bc-1 p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  line-height: 26.4px;
+  color: white;
+}
+/* line 25, main.sass */
+section.bc-1 h1 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  letter-spacing: -1.8px;
+  color: white;
+}
