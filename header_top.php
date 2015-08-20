@@ -16,7 +16,9 @@ include('includes/functions.php');
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
+    
+    <link rel="shortcut icon" href="<?=$base;?>images/favicon.png">
+    
 		<link rel="stylesheet" type="text/css" href="<?=$base;?>css/jpanelmenu.css" />
 
 		<link rel="stylesheet" type="text/css" href="<?=$base;?>bootstrap/css/bootstrap.min.css" />
