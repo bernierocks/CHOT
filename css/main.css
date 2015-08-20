@@ -15,21 +15,21 @@ footer {
   padding: 26px 0 43px;
   font-size: 17px;
 }
-/* line 25, main.sass */
+/* line 26, main.sass */
 footer p {
   margin: 0;
 }
 
-/* line 28, main.sass */
+/* line 29, main.sass */
 section.bc-1 {
   padding: 58px 0 75px;
 }
-/* line 30, main.sass */
+/* line 31, main.sass */
 section.bc-1 .hero-bg {
   background-color: #610000;
   min-height: 506.975px;
 }
-/* line 33, main.sass */
+/* line 35, main.sass */
 section.bc-1 .bc-placeholder {
   margin: 0 auto;
   display: block;
@@ -37,13 +37,13 @@ section.bc-1 .bc-placeholder {
   height: 540px;
 }
 @media (min-width: 768px) {
-  /* line 33, main.sass */
+  /* line 35, main.sass */
   section.bc-1 .bc-placeholder {
     position: absolute;
     margin: -12px 0 0 66px;
   }
 }
-/* line 43, main.sass */
+/* line 45, main.sass */
 section.bc-1 p {
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
@@ -52,12 +52,12 @@ section.bc-1 p {
   padding: 18px 0;
 }
 @media (min-width: 768px) {
-  /* line 43, main.sass */
+  /* line 45, main.sass */
   section.bc-1 p {
     max-width: 457px;
   }
 }
-/* line 51, main.sass */
+/* line 53, main.sass */
 section.bc-1 h1 {
   margin: 80px 0 0 0;
   font-family: Georgia, Times, "Times New Roman", serif;
