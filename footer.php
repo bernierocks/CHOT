@@ -1,3 +1,4 @@
+
 <?
 // // Keep in mind that any divs started in the header must be closed here.
 // if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If these items evaluate to TRUE, it will perform the first block of code.
@@ -6,3 +7,16 @@
 
 // }
 ?>
+
+
+
+
+<footer>   
+    <div class="container">   
+        <div class="col col-sm-12 col-md-12" align="right">   
+            <p>© 2015 ChurchOrganTrader.com</p>
+            <p>Website powered MemberLeap a product of Vieth Consulting    </p>
+        </div><!-- /.col12-->
+    
+    </div><!-- /.container -->
+</footer><!-- /footer -->
