@@ -4,7 +4,7 @@ $site_is_a_redesign		= false;			//T or F - if the site is a redesign true, other
 $redesign_menu_addon	= ''; 	//When doing a redesign, give this variable the name of the redesign folder. If not a redesign, use two single quotes- ''.
 
 $org_id					= 'CHOT';
-$their_domain 			= 'http://host7.viethwebhosting.com/~chot/';
+$their_domain 			= 'http://host7.viethwebhosting.com/~chot';
 $server_name 			= 'http://host7.viethwebhosting.com/~chot/'; //viethconsulting.com for old clients, memberleap.com for new clients
 $host_number 			= '2';  //as in, "host7.viethwebhosting.com...".  ONLY MATTERS ON NEW CLIENTS- all new clients will be 7 for now
 $contact_email 			= ''; //For contact_us.php
