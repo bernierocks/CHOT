@@ -29,7 +29,7 @@ include('includes/functions.php');
 		<script type="text/javascript" src="<?=$base;?>_jquery/js/jquery-migrate-1.2.1.min.js"></script>
 		<script type="text/javascript" src="<?=$base;?>_jquery/js/jquery-ui-1.9.2.custom.min.js"></script>
 		<script type="text/javascript" src="<?=$base;?>_jquery/js/jquery.jpanelmenu.min.js"></script>
-		
+		<script type="text/javascript" src="<?=$base;?>_jquery/js/scripts.js"></script>
 		<!--[if lt IE 9]>
 			<script type="text/javascript" src="<?=$base;?>_jquery/js/html5shiv.js?ccccombo_breaker=<?=$build_time?>"></script>
 			<script type="text/javascript" src="<?=$base;?>_jquery/js/respond.min.js?ccccombo_breaker=<?=$build_time?>"></script>
