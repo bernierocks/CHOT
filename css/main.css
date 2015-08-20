@@ -43,7 +43,7 @@ section.bc-1 .bc-placeholder {
     margin: -12px 0 0 66px;
   }
 }
-/* line 42, main.sass */
+/* line 43, main.sass */
 section.bc-1 p {
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
@@ -52,12 +52,12 @@ section.bc-1 p {
   padding: 18px 0;
 }
 @media (min-width: 768px) {
-  /* line 42, main.sass */
+  /* line 43, main.sass */
   section.bc-1 p {
     max-width: 457px;
   }
 }
-/* line 50, main.sass */
+/* line 51, main.sass */
 section.bc-1 h1 {
   margin: 80px 0 0 0;
   font-family: Georgia, Times, "Times New Roman", serif;

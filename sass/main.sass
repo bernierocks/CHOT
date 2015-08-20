@@ -9,7 +9,7 @@
     @if $point == xs
         @media (max-width: 480px)
             @content    
-
+=shadow-this
 
 *
     font-family: 'Source Sans Pro', sans-serif
@@ -31,6 +31,7 @@ section.bc-1
         background-color: #610000
         min-height: 506.975px
     .bc-placeholder
+        +shadow-this
         margin: 0 auto
         display: block
         width: 456px
