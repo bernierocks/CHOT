@@ -7,9 +7,12 @@ setInterval(function(){
 
 var $button = $(".pulsate");
 setInterval(function(){
-    $button.toggleClass("animated pulse");
-}, 2500);
-      
+    $button.toggleClass("animated shake");
+}, 5000);
+    $button.onclick(
+      function() {
+        $( this ).addClass( "animated fadOutDown" );
+    );
 
 var $fader = $(".fade");
 setInterval(function(){
