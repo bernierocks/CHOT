@@ -36,7 +36,14 @@ section.bc-1 .bc-placeholder {
   width: 456px;
   height: 540px;
 }
-/* line 39, main.sass */
+@media (min-width: 768px) {
+  /* line 33, main.sass */
+  section.bc-1 .bc-placeholder {
+    position: absolute;
+    margin: -12px 0 0 66px;
+  }
+}
+/* line 42, main.sass */
 section.bc-1 p {
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
@@ -45,12 +52,12 @@ section.bc-1 p {
   padding: 18px 0;
 }
 @media (min-width: 768px) {
-  /* line 39, main.sass */
+  /* line 42, main.sass */
   section.bc-1 p {
     max-width: 457px;
   }
 }
-/* line 47, main.sass */
+/* line 50, main.sass */
 section.bc-1 h1 {
   margin: 80px 0 0 0;
   font-family: Georgia, Times, "Times New Roman", serif;
