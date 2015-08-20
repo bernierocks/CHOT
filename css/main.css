@@ -35,8 +35,10 @@ section.bc-1 p {
   font-size: 17px;
   line-height: 26.4px;
   color: white;
+  max-width: 457px;
+  padding: 18px 0;
 }
-/* line 25, main.sass */
+/* line 27, main.sass */
 section.bc-1 h1 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
