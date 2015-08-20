@@ -104,12 +104,6 @@ section.bc-1 h1 {
 
 /* line 81, main.sass */
 .btn {
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  transition: all 0.2s ease, padding 0.8s linear;
   background: #002a78;
   background: #002a78;
   border-style: Solid;
@@ -134,7 +128,7 @@ section.bc-1 h1 {
     margin: 30px auto 0 80px;
   }
 }
-/* line 103, main.sass */
+/* line 102, main.sass */
 .btn:hover, .btn:active, .btn:focus {
   background: #003cab;
   border-style: Solid;
