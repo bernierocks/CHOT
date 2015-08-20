@@ -9,7 +9,9 @@ include('header.php'); // Include pulls another file into the page, and sticks i
             <div class="hero-bg">
                 <div class="row"> 
                     <div class="col col-sm-12 col-md-6"> 
-                          
+                        <div class="bc-placeholder">
+                            <img alt="" src="images/hero.svg">
+                        </div><!-- /. -->
                     </div><!-- /.col6-->
                     <div class="col col-sm-12 col-md-6"> 
                        <h1>Welcome to <b>Church</b>Organ<b>Trader.com</b></h1>
