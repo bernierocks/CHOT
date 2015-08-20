@@ -68,7 +68,7 @@ section.bc-1 .bc-placeholder img {
 /* line 52, main.sass */
 section.bc-1 p {
   font-family: "Open Sans", sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 26.4px;
   color: white;
   padding: 0;
@@ -117,4 +117,13 @@ section.bc-1 h1 {
   width: 100%;
   max-width: 272px;
   border-radius: 8px;
+  margin: 30px auto 0;
+  display: block;
+  padding: 10px;
+}
+@media (min-width: 1280px) {
+  /* line 72, main.sass */
+  .btn {
+    margin: 30px auto 0 80px;
+  }
 }
