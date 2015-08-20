@@ -12,6 +12,10 @@ body {
 footer {
   background-color: #610000;
   color: white;
-  padding: 26px 0 30px;
-  font-size: 18px;
+  padding: 26px 0 43px;
+  font-size: 17px;
+}
+/* line 12, main.sass */
+footer p {
+  margin: 0;
 }
