@@ -30,11 +30,17 @@ footer
 section.bc-1   
     padding: 58px 0 75px
     .hero-bg
+        +breakpoint(sm)    
+            padding: 20px
+        +breakpoint(xs)
+            padding: 20px
         +shadow-this
         background-color: #610000
         min-height: 506.975px
     .bc-placeholder
-        +shadow-this
+        img
+            +shadow-this
+            margin: 0 auto    
         margin: 0 auto
         display: block
         +breakpoint(md)
