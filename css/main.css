@@ -42,7 +42,7 @@ section.bc-1 .bc-placeholder {
   width: 456px;
   height: 540px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1280px) {
   /* line 36, main.sass */
   section.bc-1 .bc-placeholder {
     position: absolute;
@@ -57,7 +57,7 @@ section.bc-1 p {
   color: white;
   padding: 18px 0;
 }
-@media (min-width: 768px) {
+@media (min-width: 1280px) {
   /* line 46, main.sass */
   section.bc-1 p {
     max-width: 457px;
