@@ -20,7 +20,11 @@ footer p {
   margin: 0;
 }
 
-/* line 16, main.sass */
+/* line 15, main.sass */
+section.bc-1 {
+  padding: 58px 0 75px;
+}
+/* line 17, main.sass */
 section.bc-1 .hero-bg {
   background-color: #610000;
   min-height: 506.975px;
