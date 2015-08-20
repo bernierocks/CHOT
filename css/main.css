@@ -100,3 +100,18 @@ section.bc-1 h1 {
     margin: 40px 0 0 0;
   }
 }
+
+/* line 72, main.sass */
+.btn {
+  background: #002a78;
+  background: #002a78;
+  border-style: Solid;
+  border-color: white;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+}
