@@ -17,11 +17,6 @@ setInterval(function(){
     $fader.toggleClass("uk-animation-fade");
 }, 500);
 
-          
- $(".pulsate").click(function() {  
-    $(this).addClass("animated fadeOutDown");     
-  });          
-    
 
     
 });
