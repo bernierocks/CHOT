@@ -104,6 +104,12 @@ section.bc-1 h1 {
 
 /* line 81, main.sass */
 .btn {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  transition: all 0.2s ease, padding 0.8s linear;
   background: #002a78;
   background: #002a78;
   border-style: Solid;
@@ -121,12 +127,6 @@ section.bc-1 h1 {
   margin: 30px auto 0;
   display: block;
   padding: 10px;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  transition: all 0.2s ease, padding 0.8s linear;
 }
 @media (min-width: 1280px) {
   /* line 81, main.sass */
@@ -134,16 +134,10 @@ section.bc-1 h1 {
     margin: 30px auto 0 80px;
   }
 }
-/* line 102, main.sass */
+/* line 103, main.sass */
 .btn:hover, .btn:active, .btn:focus {
   background: #003cab;
   border-style: Solid;
   border-color: white;
   border-width: 2px;
-  border-radius: 0px;
-  -moz-border-radius: 0px;
-  -webkit-border-radius: 0px;
-  border-radius: 8px;
-  display: block;
-  padding: 10px;
 }
