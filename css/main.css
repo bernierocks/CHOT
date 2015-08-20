@@ -39,14 +39,14 @@ section.bc-1 .bc-placeholder {
   filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000');
   margin: 0 auto;
   display: block;
-  width: 456px;
-  height: 540px;
 }
 @media (min-width: 1280px) {
   /* line 36, main.sass */
   section.bc-1 .bc-placeholder {
     position: absolute;
     margin: -12px 0 0 66px;
+    width: 456px;
+    height: 540px;
   }
 }
 /* line 46, main.sass */
