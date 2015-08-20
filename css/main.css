@@ -1,4 +1,17 @@
 /* line 1, main.sass */
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* line 4, main.sass */
 body {
   background-color: white;
+}
+
+/* line 7, main.sass */
+footer {
+  background-color: #610000;
+  color: white;
+  padding: 26px 0 30px;
+  font-size: 18px;
 }

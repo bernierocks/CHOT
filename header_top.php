@@ -45,7 +45,7 @@ include('includes/functions.php');
 		<!-- Jake jquery bits -->
 		<?=$alinclude;?>
 		<!-- Google fonts -->
-		<link href='http://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 		
 		<!-- Our style sheets -->
 		<link rel="stylesheet" type="text/css" href="<?=$base;?>css/style.css?combobreaker=1" />
