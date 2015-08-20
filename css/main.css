@@ -30,6 +30,13 @@ section.bc-1 .hero-bg {
   min-height: 506.975px;
 }
 /* line 33, main.sass */
+section.bc-1 .bc-placeholder {
+  margin: 0 auto;
+  display: block;
+  width: 456px;
+  height: 540px;
+}
+/* line 39, main.sass */
 section.bc-1 p {
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
@@ -38,12 +45,12 @@ section.bc-1 p {
   padding: 18px 0;
 }
 @media (min-width: 768px) {
-  /* line 33, main.sass */
+  /* line 39, main.sass */
   section.bc-1 p {
     max-width: 457px;
   }
 }
-/* line 41, main.sass */
+/* line 47, main.sass */
 section.bc-1 h1 {
   margin: 80px 0 0 0;
   font-family: Georgia, Times, "Times New Roman", serif;

@@ -10,7 +10,7 @@ include('header.php'); // Include pulls another file into the page, and sticks i
                 <div class="row"> 
                     <div class="col col-sm-12 col-md-6"> 
                         <div class="bc-placeholder">
-                            <img alt="" src="images/hero.jpg">
+                            <img alt="" class="img-responsive" src="images/hero.jpg">
                         </div><!-- /. -->
                     </div><!-- /.col6-->
                     <div class="col col-sm-12 col-md-6"> 
