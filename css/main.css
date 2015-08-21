@@ -157,7 +157,7 @@ h1 {
 }
 
 /* line 126, main.sass */
-nav li a {
+.nav li a {
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
   color: #610000;
