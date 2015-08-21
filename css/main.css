@@ -260,13 +260,20 @@ h1 {
   max-width: 250px;
 }
 
-/* line 202, main.sass */
+@media (min-width: 992px) {
+  /* line 201, main.sass */
+  #login {
+    float: right;
+    margin: 18px 0 0 0;
+  }
+}
+/* line 205, main.sass */
 #login div {
   max-width: 165px;
   display: inline-block;
   padding: 5px;
 }
-/* line 206, main.sass */
+/* line 209, main.sass */
 #login input[type="submit"] {
   background-color: #610000;
   color: white;
@@ -275,7 +282,7 @@ h1 {
   padding: 10px 17px;
   border: none;
 }
-/* line 213, main.sass */
+/* line 216, main.sass */
 #login input[type="text"], #login input[type="password"] {
   width: 100%;
   background: white;
@@ -292,7 +299,7 @@ h1 {
   color: #610000;
   font-family: "Open Sans", sans-serif;
 }
-/* line 228, main.sass */
+/* line 231, main.sass */
 #login a {
   position: absolute;
   margin: 47px 0 0 0px;
