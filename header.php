@@ -49,7 +49,7 @@ if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If thes
         
         
         <div class="row">  
-            <div class="col col-sm-12 col-md-12">   
+            <div class="col col-md-offset-2 col-sm-12 col-md-8">   
         
        
             <? echo quick_menu(); ?>
@@ -67,7 +67,7 @@ if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If thes
                 </div>
             </div><!-- end of #mobile-menu-col --> 
             
-            </div><!-- /.col12-->
+            </div><!-- /.col8-->
         </div><!-- /.row -->
         
     </div><!-- /.container -->
