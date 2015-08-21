@@ -34,13 +34,24 @@ if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If thes
 
     <? echo mobile_menu($option_array); ?>
     <div class="container"> 
+       
+       
+       <div class="row">  
         <div class="col col-sm-12 col-md-5">   
             <a href="#" alt=""><img class="img-responsive" alt="" src="<?=$base;?>images/logo.svg"></a>
         </div><!-- /.col5-->
-        <div class="col col-sm-12 col-md-7">   
-            <? echo log_in_form(); ?>         
-                     
-           
+            <div class="col col-sm-12 col-md-7">   
+                <? echo log_in_form(); ?>         
+
+
+            </div><!-- /.col7-->
+        </div><!-- /.row -->
+        
+        
+        <div class="row">  
+            <div class="col col-sm-12 col-md-12">   
+        
+       
             <? echo quick_menu(); ?>
             <div id="mobile-menu-col">
                 <div id="mobile-toggle" class="mobileMenuTrigger hidden-lg">
@@ -54,7 +65,10 @@ if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If thes
                         </g>
                     </svg>
                 </div>
-            </div><!-- end of #mobile-menu-col -->
-        </div><!-- /.col7-->
+            </div><!-- end of #mobile-menu-col --> 
+            
+            </div><!-- /.col12-->
+        </div><!-- /.row -->
+        
     </div><!-- /.container -->
 </header><!-- /header -->
