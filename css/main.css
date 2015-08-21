@@ -261,7 +261,7 @@ h1 {
 }
 
 /* line 202, main.sass */
-#login input {
+#login input[type="submit"] {
   background-color: #610000;
   color: white;
   border-radius: 5px;
