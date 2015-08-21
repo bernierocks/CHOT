@@ -135,3 +135,29 @@ section.bc-1 h1 {
   border-color: white;
   border-width: 2px;
 }
+
+/* line 108, main.sass */
+section.bc-2 {
+  padding: 20px 0;
+}
+
+/* line 112, main.sass */
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  color: #610000;
+}
+
+/* line 116, main.sass */
+h1 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  color: #610000;
+}
+
+/* line 125, main.sass */
+nav li a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  color: #610000;
+}
