@@ -281,9 +281,13 @@ h1 {
   border-color: #610000;
   border-color: #610000;
   border-width: 1px;
-  border-radius: 0px;
-  -moz-border-radius: 0px;
-  -webkit-border-radius: 0px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  padding: 9px 0;
+  font-size: 14px;
+  color: #610000;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*# sourceMappingURL=main.css.map */
