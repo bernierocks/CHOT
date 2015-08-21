@@ -37,7 +37,7 @@ section.bc-1 .hero-bg {
 @media (max-width: 1195px) {
   /* line 41, main.sass */
   section.bc-1 .hero-bg {
-    padding: 10%;
+    padding: 5%;
   }
 }
 @media (max-width: 480px) {
