@@ -260,4 +260,13 @@ h1 {
   max-width: 250px;
 }
 
+/* line 202, main.sass */
+#login input {
+  background-color: #610000;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 8px 17px;
+}
+
 /*# sourceMappingURL=main.css.map */
