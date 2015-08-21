@@ -261,6 +261,11 @@ h1 {
 }
 
 /* line 202, main.sass */
+#login div {
+  max-width: 165px;
+  display: inline-block;
+}
+/* line 205, main.sass */
 #login input[type="submit"] {
   background-color: #610000;
   color: white;
