@@ -27,11 +27,12 @@ include('header.php'); // Include pulls another file into the page, and sticks i
         </div><!-- /.row -->
 
     </div><!-- /.container -->
+</section><!-- /.section -->
+<section class="bc-2">   
     <div class="container">   
         <div class="row">  
             <h1 align="center">Our Sponsors</h1>
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section><!-- /.section -->
-
 <?include('footer.php'); ?>
