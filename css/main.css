@@ -277,6 +277,7 @@ h1 {
 }
 /* line 213, main.sass */
 #login input[type="text"], #login input[type="password"] {
+  width: 100%;
   background: white;
   background: white;
   border-style: Solid;
@@ -291,7 +292,7 @@ h1 {
   color: #610000;
   font-family: "Open Sans", sans-serif;
 }
-/* line 227, main.sass */
+/* line 228, main.sass */
 #login a {
   position: absolute;
   margin: 47px 0 0 0px;
