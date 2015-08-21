@@ -38,6 +38,7 @@ if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If thes
             <a href="#" alt=""><img class="img-responsive" alt="" src="<?=$base;?>images/logo.svg"></a>
         </div><!-- /.col5-->
         <div class="col col-sm-12 col-md-7">   
+            <? echo log_in_form(); ?>         
                      
            
             <? echo quick_menu(); ?>
