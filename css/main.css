@@ -57,11 +57,11 @@ section.bc-1 .bc-placeholder img {
   filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000');
   margin: 0 auto;
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   /* line 49, main.sass */
   section.bc-1 .bc-placeholder {
     position: absolute;
-    margin: -35px 0 0 66px;
+    margin: -18px 0 0 66px;
     width: 456px;
     height: 540px;
   }
@@ -74,7 +74,7 @@ section.bc-1 p {
   color: white;
   padding: 0;
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   /* line 61, main.sass */
   section.bc-1 p {
     max-width: 457px;
@@ -122,7 +122,7 @@ section.bc-1 h1 {
   display: block;
   padding: 10px;
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   /* line 81, main.sass */
   .btn {
     margin: 30px auto 0 80px;
@@ -163,7 +163,7 @@ h1 {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   /* line 129, main.sass */
   #nav_menu {
     margin-top: -40px;
@@ -267,7 +267,7 @@ h1 {
   max-width: 250px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   /* line 206, main.sass */
   #login {
     float: right;
