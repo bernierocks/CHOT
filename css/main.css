@@ -153,9 +153,10 @@ h1 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   color: #610000;
+  font-weight: bolder;
 }
 
-/* line 125, main.sass */
+/* line 126, main.sass */
 nav li a {
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
