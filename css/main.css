@@ -156,14 +156,21 @@ h1 {
   font-weight: bolder;
 }
 
-/* line 126, main.sass */
+@media (min-width: 1280px) {
+  /* line 124, main.sass */
+  #nav_menu {
+    margin-top: -40px;
+  }
+}
+
+/* line 130, main.sass */
 .nav li a {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: #610000;
 }
 
-/* line 134, main.sass */
+/* line 138, main.sass */
 #mobileMenuWrapper {
   position: fixed;
   top: -1px;
@@ -179,18 +186,18 @@ h1 {
   transition: all 300ms cubic-bezier(1, 0.01, 0, 1) 0s;
 }
 
-/* line 147, main.sass */
+/* line 151, main.sass */
 #mobileMenuWrapper.open {
   left: 0px;
   bottom: 0px;
 }
 
-/* line 151, main.sass */
+/* line 155, main.sass */
 #mobileMenuWrapper #mobile-menu {
   overflow: auto;
   padding: 0px 20px 10px;
 }
-/* line 154, main.sass */
+/* line 158, main.sass */
 #mobileMenuWrapper #mobile-menu > li#triggerClose {
   color: white;
   float: right;
@@ -199,7 +206,7 @@ h1 {
   cursor: pointer;
   transform: rotate(45deg);
 }
-/* line 161, main.sass */
+/* line 165, main.sass */
 #mobileMenuWrapper #mobile-menu a {
   width: 100%;
   color: white;
@@ -207,20 +214,20 @@ h1 {
   margin: 10px 0 0 0;
   font-size: 14px;
 }
-/* line 167, main.sass */
+/* line 171, main.sass */
 #mobileMenuWrapper ul {
   margin: 0px;
   padding: 0px;
   list-style-type: none;
 }
 
-/* line 172, main.sass */
+/* line 176, main.sass */
 #mobileMenuWrapper ul.mDropdown {
   margin: 0 15px;
   display: none;
 }
 
-/* line 175, main.sass */
+/* line 179, main.sass */
 #mobile-toggle {
   border: none;
   background: transparent;
@@ -228,7 +235,7 @@ h1 {
   cursor: pointer;
 }
 
-/* line 180, main.sass */
+/* line 184, main.sass */
 #mobile-menu-col {
   top: 10px;
   right: 20px;
@@ -236,18 +243,18 @@ h1 {
   position: relative;
 }
 
-/* line 185, main.sass */
+/* line 189, main.sass */
 #mobile-logo {
   width: 40%;
   float: left;
   margin-top: 27px;
   margin-bottom: 20px;
 }
-/* line 190, main.sass */
+/* line 194, main.sass */
 #mobile-logo a {
   margin: 0 !important;
 }
-/* line 192, main.sass */
+/* line 196, main.sass */
 #mobile-logo svg#logo {
   width: 250px;
   max-width: 250px;
