@@ -34,13 +34,13 @@ section.bc-1 .hero-bg {
   background-color: #610000;
   min-height: 506.975px;
 }
-@media (min-width: 768px) {
+@media (max-width: 991px) {
   /* line 41, main.sass */
   section.bc-1 .hero-bg {
     padding: 10%;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   /* line 41, main.sass */
   section.bc-1 .hero-bg {
     padding: 10%;
@@ -89,13 +89,13 @@ section.bc-1 h1 {
   color: white;
   margin-bottom: 18px;
 }
-@media (min-width: 768px) {
+@media (max-width: 991px) {
   /* line 69, main.sass */
   section.bc-1 h1 {
     margin: 40px 0 0 0;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   /* line 69, main.sass */
   section.bc-1 h1 {
     margin: 40px 0 0 0;
@@ -156,7 +156,7 @@ h1 {
   font-weight: bolder;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 991px) {
   /* line 123, main.sass */
   .logo {
     margin: 0 auto 20px;
@@ -274,7 +274,7 @@ h1 {
     margin: 18px 0 0 0;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 991px) {
   /* line 206, main.sass */
   #login {
     display: block;
