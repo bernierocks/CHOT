@@ -12,7 +12,7 @@ if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If thes
 	echo '<h2 class="title">'.$title.'</h2>';//ECHO is PHP's command to output to the page.
 } else { //If the IF statement evaluates to FALSE, this code will be run.  This is optional.
 
-}?>
+}?> 
 
 
 <header>   
