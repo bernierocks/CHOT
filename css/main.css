@@ -34,7 +34,7 @@ section.bc-1 .hero-bg {
   background-color: #610000;
   min-height: 506.975px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   /* line 41, main.sass */
   section.bc-1 .hero-bg {
     padding: 10%;
@@ -57,7 +57,7 @@ section.bc-1 .bc-placeholder img {
   filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000');
   margin: 0 auto;
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   /* line 49, main.sass */
   section.bc-1 .bc-placeholder {
     position: absolute;
@@ -74,7 +74,7 @@ section.bc-1 p {
   color: white;
   padding: 0;
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   /* line 61, main.sass */
   section.bc-1 p {
     max-width: 457px;
@@ -89,7 +89,7 @@ section.bc-1 h1 {
   color: white;
   margin-bottom: 18px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   /* line 69, main.sass */
   section.bc-1 h1 {
     margin: 40px 0 0 0;
@@ -122,7 +122,7 @@ section.bc-1 h1 {
   display: block;
   padding: 10px;
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   /* line 81, main.sass */
   .btn {
     margin: 30px auto 0 80px;
@@ -156,14 +156,14 @@ h1 {
   font-weight: bolder;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   /* line 123, main.sass */
   .logo {
     margin: 0 auto 20px;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   /* line 129, main.sass */
   #nav_menu {
     margin-top: -40px;
@@ -267,14 +267,14 @@ h1 {
   max-width: 250px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   /* line 206, main.sass */
   #login {
     float: right;
     margin: 18px 0 0 0;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   /* line 206, main.sass */
   #login {
     display: block;
