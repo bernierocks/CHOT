@@ -38,31 +38,7 @@ if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If thes
             <a href="#" alt=""><img class="img-responsive" alt="" src="<?=$base;?>images/logo.svg"></a>
         </div><!-- /.col5-->
         <div class="col col-sm-12 col-md-7">   
-           <?php 
-                
-           $my_log_in_form = log_in_form(
-           
-                    $log_in_options_array = array(
-	'get' 				=> form,
-	'layout'			=> vertical,
-	'user_placeholder'		=> 'Username',
-	'user_label'			=> 'Username',
-	'user_class'			=> 'username-css-class',
-	'pass_placeholder'		=> 'Password',
-	'pass_label'			=> 'Password',
-	'pass_class'			=> 'password-css-class',
-	'forgot_pass'			=> true,
-	'forgot_pass_label'		=> 'Forgot Password?',
-	'forgot_pass_position'	=> 'left',
-	'forgot_pass_class'		=> 'forgot-pass-css-class',
-	'submit_value'		=> 'Submit',
-	'submit_class'		=> 'submit-button-css-class'
-);
-
-           
-           );
-            ?> 
-           
+                     
            
             <? echo quick_menu(); ?>
             <div id="mobile-menu-col">
