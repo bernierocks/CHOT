@@ -11,7 +11,7 @@ include('header.php'); // Include pulls another file into the page, and sticks i
                     <div class="row"> 
                         <div class="col col-sm-12 col-md-6"> 
                             <div class="bc-placeholder">
-                               <? hc_slideshow('FD3', 7000); ?>
+                               <?php  echo quick_slideshow('FD3', 7000); ?> 
                             </div><!-- /. -->
                         </div><!-- /.col6-->
                         <div class="col col-sm-12 col-md-6"> 
