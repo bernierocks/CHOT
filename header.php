@@ -32,6 +32,22 @@ if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If thes
         mobile_menu($mm2_options);
     ?>
 
+           <!-- Start of Member Login Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Member Log In</h4>
+              </div>
+              <div class="modal-body">
+                <? echo log_in_form($log_in_options_array); ?>
+              </div>
+            </div>
+          </div>
+        </div><!-- End of Member Login Modal -->
+   
+   
     <? echo mobile_menu($option_array); ?>
     <div class="container"> 
        
