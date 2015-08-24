@@ -81,3 +81,5 @@ h1 { font-family: Georgia, Times, "Times New Roman", serif; font-size: 30px; col
 .carousel-control.right { background: transparent url("../images/right.png") no-repeat right center !important; }
 
 .carousel-control.left { background: transparent url("../images/left.png") no-repeat left center !important; }
+
+.carousel-indicators { display: none; }
