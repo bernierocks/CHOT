@@ -1,11 +1,11 @@
 <?
-$site_is_live 			= true;
+$site_is_live 			= false;
 $site_is_a_redesign		= false;			//T or F - if the site is a redesign true, otherwise false.  Effects paths to menus and images
 $redesign_menu_addon	= ''; 	//When doing a redesign, give this variable the name of the redesign folder. If not a redesign, use two single quotes- ''.
 
 $org_id					= 'CHOT';
-$their_domain 			= 'host7.viethwebhosting.com/~chot/';
-$server_name 			= 'http://host7.viethwebhosting.com/~chot/'; //viethconsulting.com for old clients, memberleap.com for new clients
+$their_domain 			= 'churchorgantrader.com';
+$server_name 			= 'memberleap.com'; //viethconsulting.com for old clients, memberleap.com for new clients
 $host_number 			= '7';  //as in, "host7.viethwebhosting.com...".  ONLY MATTERS ON NEW CLIENTS- all new clients will be 7 for now
 $contact_email 			= ''; //For contact_us.php
 $org_name 				= 'The Church Organ Trader'; //Proper name for page title 
