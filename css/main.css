@@ -75,4 +75,4 @@ h1 { font-family: Georgia, Times, "Times New Roman", serif; font-size: 30px; col
 
 .carousel-control .icon-next:before { content: "\203a"; }
 
-.carousel-control { background: none; }
+.carousel-control { background-image: none !important; }
