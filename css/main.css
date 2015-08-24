@@ -178,7 +178,7 @@ h1 {
 @media (max-width: 900px) {
   /* line 135, main.sass */
   #nav_menu {
-    display: none;
+    display: none !important;
   }
 }
 
