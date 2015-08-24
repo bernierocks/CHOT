@@ -55,15 +55,7 @@ if($home!='Y' && $_GET['mms'] != 'X'){ //this IF statement is the test.  If thes
             <? echo quick_menu(); ?>
             <div id="mobile-menu-col">
                 <div id="mobile-toggle" class="mobileMenuTrigger hidden-lg">
-                    <svg version="1.1" id="burger" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                         viewBox="0 0 35 35" enable-background="new 0 0 35 35" xml:space="preserve">
-                        <g id="burger-path">
-                        <rect x="0" y="0" fill="#1E5CAB" width="35" height="35"/>
-                        <line fill="none" stroke="#FFFFFF" stroke-width="3.8889" stroke-linecap="round" x1="6.4" y1="9" x2="28.6" y2="9"/>
-                        <line fill="none" stroke="#FFFFFF" stroke-width="3.8889" stroke-linecap="round" x1="6.4" y1="17.5" x2="28.6" y2="17.5"/>
-                        <line fill="none" stroke="#FFFFFF" stroke-width="3.8889" stroke-linecap="round" x1="6.4" y1="26" x2="28.6" y2="26"/>
-                        </g>
-                    </svg>
+                    <img alt="" src="<?=$base;?>images/menu.svg">
                 </div>
             </div><!-- end of #mobile-menu-col --> 
             
