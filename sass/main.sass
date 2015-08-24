@@ -292,6 +292,13 @@ h1
     color: transparent
     text-shadow: none 
     +transition
+    opacity: .2
+    filter: alpha(opacity=20)
+    &:hover, &:focus
+        color: #fff
+        text-decoration: none
+        opacity: 1
+        filter: alpha(opacity=100)
 
 .carousel-control.right
     background: transparent url("../images/right.png") no-repeat right top !important
