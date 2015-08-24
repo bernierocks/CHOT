@@ -77,4 +77,4 @@ h1 { font-family: Georgia, Times, "Times New Roman", serif; font-size: 30px; col
 
 .carousel-control { background-image: none !important; }
 
-.carousel-control.right { background: transparent url("../images/right.png") no-repeat right top; }
+.carousel-control.right { background: transparent url("../images/right.png") no-repeat right top !important; }
