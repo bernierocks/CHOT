@@ -68,3 +68,11 @@ h1 { font-family: Georgia, Times, "Times New Roman", serif; font-size: 30px; col
 #login input[type="submit"] { background-color: #610000; color: white; border-radius: 5px; font-size: 14px; padding: 10px 17px; border: none; }
 #login input[type="text"], #login input[type="password"] { width: 100%; background: white; background: white; border-style: Solid; border-color: #610000; border-color: #610000; border-width: 1px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; padding: 9px; font-size: 14px; color: #610000; font-family: "Open Sans", sans-serif; }
 #login a { position: absolute; margin: 47px 0 0 0px; font-size: 10px; }
+
+.carousel-control .glyphicon, .carousel-control .icon-prev, .carousel-control .icon-next { position: absolute; top: 50%; left: 50%; z-index: 5; display: inline-block; width: 20px; height: 20px; margin-top: -10px; margin-left: -10px; font-family: serif; }
+
+.carousel-control .icon-prev:before { content: "\2039"; }
+
+.carousel-control .icon-next:before { content: "\203a"; }
+
+.carousel-control { background: none; }
