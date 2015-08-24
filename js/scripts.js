@@ -21,7 +21,7 @@ setInterval(function(){
       $("#mobileMenuWrapper").toggleClass("open");
     });
     
-        $("#mobileMenuTrigger").click(function(){
+        $("#triggerClose").click(function(){
       $("#mobileMenuWrapper").removeClass("open");
     });
     
