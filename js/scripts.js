@@ -21,6 +21,12 @@ setInterval(function(){
       $("#mobileMenuWrapper").toggleClass("open");
     });
     
+        $("#mobileMenuTrigger").click(function(){
+      $("#mobileMenuWrapper").removeClass("open");
+    });
+    
+    
+    
 });
 
 
