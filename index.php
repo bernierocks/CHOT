@@ -34,9 +34,14 @@ include('header.php'); // Include pulls another file into the page, and sticks i
             <h1 align="center">Our Sponsors</h1>
         </div><!-- /.row -->
         <div class="row">  
-            <div class="col col-sm-12 col-md-2">   
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
-            </div><!-- /.col2-->
+            <div class="col col-sm-12 col-md-12">   
+                <div id="slider-container-FD2" style="display:none;margin:0px auto; width:1170px; height:135"
+                name="https://www.memberleap.com/slideshows/nivo_feed.php?org_id=CHOT&ban=FD2&speed=5">Loading...
+                </div>
+                    
+                                        
+                    
+            </div><!-- /.col12-->
         </div><!-- /.row -->
     </div><!-- /.container -->
 </section><!-- /.section -->
