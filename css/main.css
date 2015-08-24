@@ -181,9 +181,11 @@ h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: #610000;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-/* line 147, main.sass */
+/* line 148, main.sass */
 #mobileMenuWrapper {
   position: fixed;
   top: -1px;
@@ -199,18 +201,18 @@ h1 {
   transition: all 300ms cubic-bezier(1, 0.01, 0, 1) 0s;
 }
 
-/* line 160, main.sass */
+/* line 161, main.sass */
 #mobileMenuWrapper.open {
   left: 0px;
   bottom: 0px;
 }
 
-/* line 164, main.sass */
+/* line 165, main.sass */
 #mobileMenuWrapper #mobile-menu {
   overflow: auto;
   padding: 0px 20px 10px;
 }
-/* line 167, main.sass */
+/* line 168, main.sass */
 #mobileMenuWrapper #mobile-menu > li#triggerClose {
   color: white;
   float: right;
@@ -219,7 +221,7 @@ h1 {
   cursor: pointer;
   transform: rotate(45deg);
 }
-/* line 174, main.sass */
+/* line 175, main.sass */
 #mobileMenuWrapper #mobile-menu a {
   width: 100%;
   color: white;
@@ -227,20 +229,20 @@ h1 {
   margin: 10px 0 0 0;
   font-size: 14px;
 }
-/* line 180, main.sass */
+/* line 181, main.sass */
 #mobileMenuWrapper ul {
   margin: 0px;
   padding: 0px;
   list-style-type: none;
 }
 
-/* line 185, main.sass */
+/* line 186, main.sass */
 #mobileMenuWrapper ul.mDropdown {
   margin: 0 15px;
   display: none;
 }
 
-/* line 188, main.sass */
+/* line 189, main.sass */
 #mobile-toggle {
   border: none;
   background: transparent;
@@ -248,7 +250,7 @@ h1 {
   cursor: pointer;
 }
 
-/* line 193, main.sass */
+/* line 194, main.sass */
 #mobile-menu-col {
   top: 10px;
   right: 20px;
@@ -256,45 +258,45 @@ h1 {
   position: relative;
 }
 
-/* line 198, main.sass */
+/* line 199, main.sass */
 #mobile-logo {
   width: 40%;
   float: left;
   margin-top: 27px;
   margin-bottom: 20px;
 }
-/* line 203, main.sass */
+/* line 204, main.sass */
 #mobile-logo a {
   margin: 0 !important;
 }
-/* line 205, main.sass */
+/* line 206, main.sass */
 #mobile-logo svg#logo {
   width: 250px;
   max-width: 250px;
 }
 
 @media (min-width: 1200px) {
-  /* line 210, main.sass */
+  /* line 211, main.sass */
   #login {
     float: right;
     margin: 18px 0 0 0;
   }
 }
 @media (max-width: 1195px) {
-  /* line 210, main.sass */
+  /* line 211, main.sass */
   #login {
     display: block;
     margin: 0 auto;
     max-width: 407px;
   }
 }
-/* line 218, main.sass */
+/* line 219, main.sass */
 #login div {
   max-width: 165px;
   display: inline-block;
   padding: 5px;
 }
-/* line 222, main.sass */
+/* line 223, main.sass */
 #login input[type="submit"] {
   background-color: #610000;
   color: white;
@@ -303,7 +305,7 @@ h1 {
   padding: 10px 17px;
   border: none;
 }
-/* line 229, main.sass */
+/* line 230, main.sass */
 #login input[type="text"], #login input[type="password"] {
   width: 100%;
   background: white;
@@ -320,7 +322,7 @@ h1 {
   color: #610000;
   font-family: "Open Sans", sans-serif;
 }
-/* line 244, main.sass */
+/* line 245, main.sass */
 #login a {
   position: absolute;
   margin: 47px 0 0 0px;
