@@ -76,3 +76,5 @@ h1 { font-family: Georgia, Times, "Times New Roman", serif; font-size: 30px; col
 .carousel-control .icon-next:before { content: "\203a"; }
 
 .carousel-control { background-image: none !important; }
+
+.carousel-control.right { background: transparent url("../images/right.png") no-repeat right top; }
