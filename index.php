@@ -35,7 +35,7 @@ include('header.php'); // Include pulls another file into the page, and sticks i
         </div><!-- /.row -->
         <div class="row">  
             <div class="col col-sm-12 col-md-12">   
-                <?php  echo quick_slideshow('FD2', 5000); ?> 
+                <? hc_slideshow('FD2', 7000); ?>
                     
                                         
                     
