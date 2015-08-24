@@ -17,6 +17,11 @@ setInterval(function(){
     $fader.toggleClass("uk-animation-fade");
 }, 500);
 
-
+    $("#mobile-toggle").click(function(){
+      $("#mobileMenuWrapper").toggleClass("open");
+    });
     
 });
+
+
+
