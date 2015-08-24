@@ -11,8 +11,7 @@ include('header.php'); // Include pulls another file into the page, and sticks i
                     <div class="row"> 
                         <div class="col col-sm-12 col-md-6"> 
                             <div class="bc-placeholder">
-                                <div id="slider-container-FD3" style="display:none;margin:0px auto; width:456px; height:541"
-name="https://www.memberleap.com/slideshows/nivo_feed.php?org_id=CHOT&ban=FD3&speed=5">Loading...</div>
+                               <? hc_slideshow('FD2', 7000); ?>
                             </div><!-- /. -->
                         </div><!-- /.col6-->
                         <div class="col col-sm-12 col-md-6"> 
@@ -36,8 +35,7 @@ name="https://www.memberleap.com/slideshows/nivo_feed.php?org_id=CHOT&ban=FD3&sp
         </div><!-- /.row -->
         <div class="row">  
             <div class="col col-sm-12 col-md-12">   
-                <div id="slider-container-FD2" style="display:none;margin:0px auto; width:auto; height:135"
-name="https://www.memberleap.com/slideshows/nivo_feed.php?org_id=CHOT&ban=FD2&speed=5">Loading...</div>
+                <? hc_slideshow('FD2', 7000); ?>
                     
                                         
                     

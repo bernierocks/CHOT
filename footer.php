@@ -23,38 +23,3 @@
 
 
 
-
-<script type="text/javascript" src="https://www.memberleap.com/_jquery/js/init_jquery.js"></script>
-<script type="text/javascript" src="https://www.memberleap.com/_jquery/js/init_nivoslider.js"></script>
-
-<script type="text/javascript">
-    function banner_callback_FD2(data){
-       $("#slider-container-FD2").html(data.html).show();
-    }
-    $(document).ready( function() {
-      $.ajax({
-        url: $("#slider-container-FD2").attr("name"),
-        dataType: 'jsonp',
-        jsonpCallback: 'banner_callback_FD2',
-        success: function(data){
-        }
-      });
-    });
-    
-        
-</script>
-
-<script type="text/javascript">
-    function banner_callback_FD3(data){
-       $("#slider-container-FD3").html(data.html).show();
-    }
-    $(document).ready( function() {
-      $.ajax({
-        url: $("#slider-container-FD3").attr("name"),
-        dataType: 'jsonp',
-        jsonpCallback: 'banner_callback_FD3',
-        success: function(data){
-        }
-      });
-    });
-</script>
