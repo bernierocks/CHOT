@@ -14,8 +14,8 @@
 <footer>   
     <div class="container">   
         <div class="col col-sm-12 col-md-12" align="right">   
-            <p>© 2015 ChurchOrganTrader.com</p>
-            <p>Website powered MemberLeap a product of Vieth Consulting    </p>
+            <p>© 2015 <a href="#" alt="">ChurchOrganTrader.com</a></p>
+            <p>Website powered <a href="#" alt="">MemberLeap</a> a product of <a href="#" alt="">Vieth Consulting</a></p>
         </div><!-- /.col12-->
     
     </div><!-- /.container -->
