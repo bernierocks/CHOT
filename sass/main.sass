@@ -4,7 +4,7 @@
         @media (min-width: 1200px)
             @content
     @if $point == sm
-        @media (max-width: 900px)
+        @media (max-width: 1195px)
             @content
     @if $point == xs
         @media (max-width: 480px)
@@ -135,8 +135,7 @@ h1
 #nav_menu
     +breakpoint(md)
         margin-top: -40px
-    +breakpoint(sm)
-        display: none !important
+    display: none
 .nav
     li
         a
