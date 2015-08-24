@@ -24,7 +24,7 @@ section.bc-1 h1 { margin: 80px 0 0 0; font-family: Georgia, Times, "Times New Ro
 @media (min-width: 1200px) { .btn { margin: 30px auto 0 80px; } }
 .btn:hover, .btn:active, .btn:focus { background: #003cab; border-style: Solid; border-color: white; border-width: 2px; }
 
-section.bc-2 { padding: 20px 0; }
+section.bc-2 { padding: 20px 0 80px; }
 section.bc-2 #slider_FD2 { width: auto !important; }
 
 p { font-family: "Open Sans", sans-serif; font-size: 17px; color: #610000; }
