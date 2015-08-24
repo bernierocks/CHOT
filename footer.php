@@ -42,7 +42,7 @@
     });
     
     
-    $('#slider_FD2').nivoSlider({
+    $('#slider-container-FD2').nivoSlider({
     effect: 'random',                 // Specify sets like: 'fold,fade,sliceDown'
     slices: 15,                     // For slice animations
     boxCols: 8,                     // For box animations
