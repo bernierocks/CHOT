@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <?
 
+require_once('includes/functions/mobile_menu.php');
+require_once('includes/functions/slideshows.php');
 include('includes/config.php');
 include('includes/mobile_code.php');
 //include('includes/elements.php');

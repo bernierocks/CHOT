@@ -1,9 +1,6 @@
 $("document").ready(function() {
    
-var $post = $(".logo");
-setInterval(function(){
-    $post.toggleClass("uk-animation-scale");
-}, 200);    
+ 
 
 var $button = $(".pulsate");
 setInterval(function(){
