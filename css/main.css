@@ -83,3 +83,6 @@ h1 { font-family: Georgia, Times, "Times New Roman", serif; font-size: 30px; col
 .carousel-control.left { background: transparent url("../images/left.png") no-repeat left center !important; }
 
 .carousel-indicators { display: none; }
+
+footer p a { -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; -ms-transition: all 0.3s ease; transition: all 0.3s ease; transition: all 0.2s ease, padding 0.8s linear; color: white; }
+footer p a:hover { color: #002a78; }
