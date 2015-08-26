@@ -20,22 +20,66 @@
     -ms-transition: all 0.3s ease
     transition: all 0.3s ease
     transition: all 0.2s ease, padding 0.8s linear
+
+
+/* 
+    ===========================================================================================
+
+    						Global Styles
+
+    ===========================================================================================
+
+
 *
     text-rendering: optimizeLegibility
 body 
     background-color: #fff
-    
-footer
-    background-color: #610000
-    color: #fff
-    padding: 26px 0 43px
-    font-size: 17px
-    +shadow-this
-    
-    p
-        margin: 0 
-        color: #fff
 
+    
+p
+    font-family: 'Open Sans', sans-serif
+    font-size : 17px
+    color : #610000
+h1
+    font-family: Georgia, Times, 'Times New Roman', serif
+    font-size : 30px
+    color : #610000
+    font-weight: bolder
+    margin: 0 0 20px 0
+.btn
+    background : #002A78
+    background : rgba(0, 42, 120, 1)
+    border-style : Solid
+    border-color : #FFFFFF
+    border-color : rgba(255, 255, 255, 1)
+    border-width : 2px
+    border-radius : 0px
+    -moz-border-radius : 0px
+    -webkit-border-radius : 0px
+    font-size: 24px
+    font-family: 'Open Sans', sans-serif
+    width: 100%
+    max-width: 272px
+    border-radius: 8px
+    margin: 30px auto 0
+    display: block
+    padding: 10px
+    +breakpoint(md)
+        margin: 30px auto 0 80px
+    
+    &:hover, &:active,  &:focus
+        background : lighten(#002A78, 10%)
+        border-style : Solid
+        border-color : rgba(255, 255, 255, 1)
+        border-width : 2px    
+    
+    
+/* 
+    ===========================================================================================
+
+    						Section-1
+
+    ===========================================================================================
 section.bc-1   
     padding: 65px 0 75px
     +breakpoint(sm)
@@ -83,68 +127,40 @@ section.bc-1
         color : #FFFFFF
         margin-bottom: 18px
         
-.btn
-    background : #002A78
-    background : rgba(0, 42, 120, 1)
-    border-style : Solid
-    border-color : #FFFFFF
-    border-color : rgba(255, 255, 255, 1)
-    border-width : 2px
-    border-radius : 0px
-    -moz-border-radius : 0px
-    -webkit-border-radius : 0px
-    font-size: 24px
-    font-family: 'Open Sans', sans-serif
-    width: 100%
-    max-width: 272px
-    border-radius: 8px
-    margin: 30px auto 0
-    display: block
-    padding: 10px
-    +breakpoint(md)
-        margin: 30px auto 0 80px
-    
-    &:hover, &:active,  &:focus
-        background : lighten(#002A78, 10%)
-        border-style : Solid
-        border-color : rgba(255, 255, 255, 1)
-        border-width : 2px    
+
+/* 
+    ===========================================================================================
+
+    						Section-2
+
+    ===========================================================================================    
     
 section.bc-2
     padding: 20px 0 80px
     #slider_FD2
         width: auto !important
 
-//Global
-p
-    font-family: 'Open Sans', sans-serif
-    font-size : 17px
-    color : #610000
-h1
-    font-family: Georgia, Times, 'Times New Roman', serif
-    font-size : 30px
-    color : #610000
-    font-weight: bolder
-    margin: 0 0 20px 0
 
-//logo
+
+/* 
+    ===========================================================================================
+
+    						Logo
+
+    ===========================================================================================    
+    
 .logo
     +breakpoint(sm)
         margin: 0 auto 20px
     +breakpoint(xs)
         margin: 0 0 -50px 0
     
-//Nav
+/* 
+    ===========================================================================================
 
+            Navigation    						
 
-
-/* ===========================================================================================
-/*
-/*							Navigation Menu
-/*
-/* ===========================================================================================
-
-
+    ===========================================================================================
 
 #nav_menu
     +breakpoint(md)
@@ -238,11 +254,12 @@ h1
         width: 250px
         max-width: 250px
 
-/* ===========================================================================================
-/*
-/*							Login Form
-/*
-/* ===========================================================================================
+/* 
+    ===========================================================================================
+
+    						Login Form
+
+    ===========================================================================================
 
 #login
     +breakpoint(md)
@@ -284,7 +301,12 @@ h1
         font-size: 10px
         
 
-// Carousel
+/* 
+    ===========================================================================================
+
+    						Carousel Controls and Indicators
+
+    ===========================================================================================
 
 .carousel-control .glyphicon,
 .carousel-control .icon-prev,
@@ -328,6 +350,13 @@ h1
 .carousel-indicators
     display: none
 
+/* 
+    ===========================================================================================
+
+    						Footer 
+
+    ===========================================================================================
+
 footer
     p
         a
@@ -337,3 +366,15 @@ footer
                 color: #9cc6f7
                 text-decoration: none
             
+            
+
+footer
+    background-color: #610000
+    color: #fff
+    padding: 26px 0 43px
+    font-size: 17px
+    +shadow-this
+    
+    p
+        margin: 0 
+        color: #fff
