@@ -58,96 +58,11 @@ h1 {
 
 /* ===========================================================================================
  *
- * 						Section-1
- *
- * =========================================================================================== */
-section.bc-1 {
-  padding: 65px 0 75px;
-}
-@media (max-width: 1195px) {
-  section.bc-1 {
-    padding: 25px 0 75px;
-  }
-}
-@media (max-width: 480px) {
-  section.bc-1 {
-    padding: 25px 0 75px;
-  }
-}
-section.bc-1 .hero-bg {
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
-  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000');
-  background-color: #610000;
-  min-height: 506.975px;
-}
-@media (max-width: 1195px) {
-  section.bc-1 .hero-bg {
-    padding: 5%;
-  }
-}
-@media (max-width: 480px) {
-  section.bc-1 .hero-bg {
-    padding: 10%;
-  }
-}
-section.bc-1 .bc-placeholder {
-  margin: 0 auto;
-  display: block;
-}
-section.bc-1 .bc-placeholder img {
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
-  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000');
-  margin: 0 auto;
-}
-@media (min-width: 1200px) {
-  section.bc-1 .bc-placeholder {
-    position: absolute;
-    margin: -18px 0 0 66px;
-    width: 456px;
-    height: 540px;
-  }
-}
-section.bc-1 p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  line-height: 26.4px;
-  color: white;
-  padding: 0;
-}
-@media (min-width: 1200px) {
-  section.bc-1 p {
-    max-width: 457px;
-  }
-}
-section.bc-1 h1 {
-  margin: 80px 0 0 0;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 30px;
-  letter-spacing: -1.8px;
-  color: white;
-  margin-bottom: 18px;
-}
-@media (max-width: 1195px) {
-  section.bc-1 h1 {
-    margin: 40px 0 0 0;
-  }
-}
-@media (max-width: 480px) {
-  section.bc-1 h1 {
-    margin: 40px 0 0 0;
-  }
-}
-
-/* ===========================================================================================
- *
- * 						Section-2
+ * 						Header
  *
  * ===========================================================================================     */
-section.bc-2 {
-  padding: 20px 0 80px;
-}
-section.bc-2 #slider_FD2 {
-  width: auto !important;
+header {
+  padding: 15px 0 0 0;
 }
 
 /* ===========================================================================================
@@ -394,6 +309,100 @@ section.bc-2 #slider_FD2 {
 
 .carousel-indicators {
   display: none;
+}
+
+/* ===========================================================================================
+ *
+ * 						Section-1
+ *
+ * =========================================================================================== */
+section.bc-1 {
+  padding: 65px 0 75px;
+}
+@media (max-width: 1195px) {
+  section.bc-1 {
+    padding: 25px 0 75px;
+  }
+}
+@media (max-width: 480px) {
+  section.bc-1 {
+    padding: 25px 0 75px;
+  }
+}
+section.bc-1 .hero-bg {
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000');
+  background-color: #610000;
+  min-height: 506.975px;
+}
+@media (max-width: 1195px) {
+  section.bc-1 .hero-bg {
+    padding: 5%;
+  }
+}
+@media (max-width: 480px) {
+  section.bc-1 .hero-bg {
+    padding: 10%;
+  }
+}
+section.bc-1 .bc-placeholder {
+  margin: 0 auto;
+  display: block;
+}
+section.bc-1 .bc-placeholder img {
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=0, Color='#000000');
+  margin: 0 auto;
+}
+@media (min-width: 1200px) {
+  section.bc-1 .bc-placeholder {
+    position: absolute;
+    margin: -18px 0 0 66px;
+    width: 456px;
+    height: 540px;
+  }
+}
+section.bc-1 p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 26.4px;
+  color: white;
+  padding: 0;
+}
+@media (min-width: 1200px) {
+  section.bc-1 p {
+    max-width: 457px;
+  }
+}
+section.bc-1 h1 {
+  margin: 80px 0 0 0;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  letter-spacing: -1.8px;
+  color: white;
+  margin-bottom: 18px;
+}
+@media (max-width: 1195px) {
+  section.bc-1 h1 {
+    margin: 40px 0 0 0;
+  }
+}
+@media (max-width: 480px) {
+  section.bc-1 h1 {
+    margin: 40px 0 0 0;
+  }
+}
+
+/* ===========================================================================================
+ *
+ * 						Section-2
+ *
+ * ===========================================================================================     */
+section.bc-2 {
+  padding: 20px 0 80px;
+}
+section.bc-2 #slider_FD2 {
+  width: auto !important;
 }
 
 /* ===========================================================================================
