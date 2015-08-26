@@ -48,7 +48,7 @@
        <div class="row">  
         <div class="col col-sm-12 col-md-5">   
             <a href="#" alt="">
-                <?php file_get_contents('images/logo.svg');?>
+                <?php readfile('images/logo.svg');?>
             </a>
         </div><!-- /.col5-->
             <div class="col col-sm-12 col-md-7 hidden-xs">   
