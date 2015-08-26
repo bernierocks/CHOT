@@ -21,7 +21,6 @@
     transition: all 0.3s ease
     transition: all 0.2s ease, padding 0.8s linear
 *
-    font-family: 'Source Sans Pro', sans-serif
     text-rendering: optimizeLegibility
 body 
     background-color: #fff
@@ -32,6 +31,7 @@ footer
     padding: 26px 0 43px
     font-size: 17px
     +shadow-this
+    
     p
         margin: 0 
         color: #fff
@@ -138,6 +138,14 @@ h1
 
 
 
+/* ===========================================================================================
+/*
+/*							Navigation Menu
+/*
+/* ===========================================================================================
+
+
+
 #nav_menu
     +breakpoint(md)
         margin-top: -40px
@@ -230,7 +238,12 @@ h1
         width: 250px
         max-width: 250px
 
-//Form
+/* ===========================================================================================
+/*
+/*							Login Form
+/*
+/* ===========================================================================================
+
 #login
     +breakpoint(md)
         float: right
