@@ -47,7 +47,7 @@
        
        <div class="row">  
         <div class="col col-xs-5 col-sm-5 col-md-5">   
-            <a class="logo" href="#" alt="">
+            <a class="logo" href="<?=$base;?>" alt="">
                 <?php readfile('images/logo.svg');?>
             </a>
         </div><!-- /.col5-->
