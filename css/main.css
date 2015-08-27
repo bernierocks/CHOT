@@ -56,19 +56,19 @@ h1 {
 }
 
 ::-webkit-input-placeholder {
-  color: #610000;
+  color: #610000 !important;
 }
 
 :-moz-placeholder {
-  color: #610000;
+  color: #610000 !important;
 }
 
 ::-moz-placeholder {
-  color: #610000;
+  color: #610000 !important;
 }
 
 :-ms-input-placeholder {
-  color: #610000;
+  color: #610000 !important;
 }
 
 /* ===========================================================================================
