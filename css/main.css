@@ -258,14 +258,14 @@ header {
  *
  * =========================================================================================== */
 /* line 241, main.sass */
-#main-menu #login {
+.login-area #login {
   display: inline-block;
   float: right;
   padding-top: 20px;
 }
 @media (max-width: 991px) {
   /* line 241, main.sass */
-  #main-menu #login {
+  .login-area #login {
     padding-top: 28px;
   }
 }

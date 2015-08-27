@@ -51,7 +51,7 @@
                 <?php readfile('images/logo.svg');?>
             </a>
         </div><!-- /.col5-->
-            <div class="col col-sm-7 col-md-7 hidden-xs">   
+            <div class="col col-sm-7 col-md-7 login-area">   
                 <? echo log_in_form(); ?>         
 
 
@@ -62,7 +62,7 @@
         <div class="row">  
             <div class="col col-sm-12 col-md-12 ">   
         
-           <div id="main-menu">
+           <div id="main-menu" class="hidden-xs	hidden-sm">
             <? echo quick_menu(); ?>
             </div><!-- /.main-menu -->
             
