@@ -256,13 +256,11 @@ header {
  * 						Login Form
  *
  * =========================================================================================== */
-@media screen and (min-width: 768px) {
-  /* line 238, main.sass */
-  #login {
-    display: inline-block;
-    float: right;
-    padding-top: 20px;
-  }
+/* line 238, main.sass */
+#login {
+  display: inline-block;
+  float: right;
+  padding-top: 20px;
 }
 /* line 243, main.sass */
 #login div {
