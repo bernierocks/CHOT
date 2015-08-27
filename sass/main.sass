@@ -235,9 +235,6 @@ header
     ===========================================================================================
 
 #login
-    +bcbreakpoint($min: 0, $max: 899px)
-        display: inline-block
-        float: right
     +breakpoint(md)
         float: right
         margin: 18px 0 0 0
@@ -245,6 +242,9 @@ header
         display: block
         margin: 0 auto
         max-width: 407px
+    +bcbreakpoint($min: 1px, $max: 899px)
+        display: inline-block
+        float: right
     div
         +bcbreakpoint($min: 0, $max: 899px)
             min-width: 157px

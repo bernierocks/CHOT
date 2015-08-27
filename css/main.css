@@ -256,13 +256,6 @@ header {
  * 						Login Form
  *
  * =========================================================================================== */
-@media (max-width: 899px) {
-  /* line 237, main.sass */
-  #login {
-    display: inline-block;
-    float: right;
-  }
-}
 @media (min-width: 1200px) {
   /* line 237, main.sass */
   #login {
@@ -276,6 +269,13 @@ header {
     display: block;
     margin: 0 auto;
     max-width: 407px;
+  }
+}
+@media (min-width: 1px) and (max-width: 899px) {
+  /* line 237, main.sass */
+  #login {
+    display: inline-block;
+    float: right;
   }
 }
 /* line 248, main.sass */
