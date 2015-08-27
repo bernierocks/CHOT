@@ -1,16 +1,13 @@
 // Mixins
 =breakpoint($point)
     @if $point == md
-        @media (min-width: 1200px)
+        @media (min-width: 992px)
             @content
     @if $point == sm
-        @media (max-width: 1195px)
+        @media (min-width: 768px)
             @content
     @if $point == xs
-        @media (max-width: 480px)
-            @content    
-    @if $point == bc01
-        @media (max-width: 742px)
+        @media (max-width: 768px)
             @content    
 
 =bcbreakpoint($min:0, $max:0)
@@ -241,7 +238,7 @@ header
     display: inline-block
     float: right
     padding-top: 20px
-    +breakpoint(bc01)
+    +breakpoint(xs)
         display: none
     div
         width: 165px
