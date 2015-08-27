@@ -10,7 +10,7 @@
         @media (max-width: 480px)
             @content    
 
-=bcbreakpoint($min: 0, $max: 0)
+=bcbreakpoint($min:0, $max:0)
     $type: type-of($min)
     @if $type == number
         $query: "all" !default
@@ -238,7 +238,7 @@ header
     display: inline-block
     float: right
     padding-top: 20px
-    +bcbreakpoint($min: 0, $max: 743px)
+    +bcbreakpoint($min:0,$max:743px)
         display: none
     div
         width: 165px
