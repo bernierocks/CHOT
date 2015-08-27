@@ -1,6 +1,6 @@
 $("document").ready(function() {
    
- 
+$("#login input[type='submit']").attr('value', 'Submit'); 
 
 var $button = $(".pulsate");
 setInterval(function(){
