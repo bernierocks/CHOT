@@ -359,7 +359,10 @@ section.bc-1
         padding: 25px 0 75px
     +breakpoint(xs)
         padding: 25px 0 75px
-
+    h1
+        +bcbreakpoint($min: 0, $max: 320px)
+            font-size: 22px
+            margin-bottom: 12px
     .hero-bg
         +breakpoint(sm)    
             padding: 5%
