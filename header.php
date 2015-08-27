@@ -81,7 +81,10 @@
     </div><!-- /.container -->
 </header><!-- /header -->
 
-
+<div class="container">  
+    <div class="row">  
+        <div class="col col-sm-12 col-md-12">   
+        
 <?
 /* The next section deals with titles on sub pages */
 // Keep in mind that any divs started in this block of code must be closed in the footer
