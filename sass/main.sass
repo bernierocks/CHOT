@@ -252,10 +252,11 @@ header
                 padding: 10px
         input[type="submit"]    
             +bcbreakpoint($min: 0, $max: 480px)
-                width: 93%
+                width: 95%
                 margin-left: 1px
                 margin: 5px 0 0px -3px
-
+            +bcbreakpoint($min: 0, $max: 320px)
+                width: 93%
 .bc-mobilelogin
     +bcbreakpoint($min: 722px, $max: 0)
         display: none
