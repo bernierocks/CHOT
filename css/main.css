@@ -104,16 +104,10 @@ header {
  * 						Logo
  *
  * ===========================================================================================     */
-@media (max-width: 1195px) {
-  /* line 128, main.sass */
-  .logo {
-    margin: 0 auto 20px;
-  }
-}
-@media (max-width: 480px) {
-  /* line 128, main.sass */
-  .logo {
-    margin: 0 0 -50px 0;
+@media (max-width: 991px) {
+  /* line 129, main.sass */
+  .logo svg {
+    width: 298px;
   }
 }
 
@@ -122,24 +116,24 @@ header {
  *         Navigation    						
  *
  * =========================================================================================== */
-/* line 141, main.sass */
+/* line 139, main.sass */
 #nav_menu {
   display: none;
 }
 @media (min-width: 1200px) {
-  /* line 141, main.sass */
+  /* line 139, main.sass */
   #nav_menu {
     margin-top: -40px;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 145, main.sass */
+  /* line 143, main.sass */
   .nav {
     float: right;
   }
 }
-/* line 149, main.sass */
+/* line 147, main.sass */
 .nav li a {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -149,7 +143,7 @@ header {
   border-bottom: 3px solid transparent;
 }
 
-/* line 157, main.sass */
+/* line 155, main.sass */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus, .nav > li > a:hover, .nav > li > a:focus {
   background-color: transparent;
   color: #610000;
@@ -157,18 +151,18 @@ header {
   border-bottom: 3px solid #610000;
 }
 
-/* line 164, main.sass */
+/* line 162, main.sass */
 #mobile-toggle img {
   width: 32px;
 }
 
-/* line 168, main.sass */
+/* line 166, main.sass */
 .modal-body {
   position: relative;
   padding: 20px 20px 40px;
 }
 
-/* line 172, main.sass */
+/* line 170, main.sass */
 #mobileMenuWrapper {
   position: fixed;
   top: -1px;
@@ -184,18 +178,18 @@ header {
   transition: all 300ms cubic-bezier(1, 0.01, 0, 1) 0s;
 }
 
-/* line 186, main.sass */
+/* line 184, main.sass */
 #mobileMenuWrapper.open {
   left: 0px;
   bottom: 0px;
 }
 
-/* line 190, main.sass */
+/* line 188, main.sass */
 #mobileMenuWrapper #mobile-menu {
   overflow: auto;
   padding: 0px 20px 10px;
 }
-/* line 193, main.sass */
+/* line 191, main.sass */
 #mobileMenuWrapper #mobile-menu > li#triggerClose {
   color: white;
   float: right;
@@ -204,7 +198,7 @@ header {
   cursor: pointer;
   transform: rotate(45deg);
 }
-/* line 200, main.sass */
+/* line 198, main.sass */
 #mobileMenuWrapper #mobile-menu a {
   width: 100%;
   color: white;
@@ -212,20 +206,20 @@ header {
   margin: 10px 0 0 0;
   font-size: 14px;
 }
-/* line 206, main.sass */
+/* line 204, main.sass */
 #mobileMenuWrapper ul {
   margin: 0px;
   padding: 0px;
   list-style-type: none;
 }
 
-/* line 211, main.sass */
+/* line 209, main.sass */
 #mobileMenuWrapper ul.mDropdown {
   margin: 0 15px;
   display: none;
 }
 
-/* line 214, main.sass */
+/* line 212, main.sass */
 #mobile-toggle {
   border: none;
   background: transparent;
@@ -233,7 +227,7 @@ header {
   cursor: pointer;
 }
 
-/* line 219, main.sass */
+/* line 217, main.sass */
 #mobile-menu-col {
   top: 10px;
   right: 20px;
@@ -241,18 +235,18 @@ header {
   position: relative;
 }
 
-/* line 224, main.sass */
+/* line 222, main.sass */
 #mobile-logo {
   width: 40%;
   float: left;
   margin-top: 27px;
   margin-bottom: 20px;
 }
-/* line 229, main.sass */
+/* line 227, main.sass */
 #mobile-logo a {
   margin: 0 !important;
 }
-/* line 231, main.sass */
+/* line 229, main.sass */
 #mobile-logo svg#logo {
   width: 250px;
   max-width: 250px;
@@ -263,25 +257,25 @@ header {
  * 						Login Form
  *
  * =========================================================================================== */
-/* line 242, main.sass */
+/* line 240, main.sass */
 #login {
   display: inline-block;
   float: right;
   padding-top: 20px;
 }
-/* line 247, main.sass */
+/* line 245, main.sass */
 #login div {
   width: 165px;
   display: inline-block;
   padding: 5px;
 }
 @media (max-width: 991px) {
-  /* line 247, main.sass */
+  /* line 245, main.sass */
   #login div {
     width: 150px;
   }
 }
-/* line 254, main.sass */
+/* line 252, main.sass */
 #login input[type="submit"] {
   background-color: #610000;
   color: white;
@@ -290,7 +284,7 @@ header {
   padding: 10px 17px;
   border: none;
 }
-/* line 261, main.sass */
+/* line 259, main.sass */
 #login input[type="text"], #login input[type="password"] {
   width: 100%;
   background: white;
@@ -307,7 +301,7 @@ header {
   color: #610000;
   font-family: "Open Sans", sans-serif;
 }
-/* line 276, main.sass */
+/* line 274, main.sass */
 #login a {
   position: absolute;
   margin: 52px 0 0 0px;
@@ -319,7 +313,7 @@ header {
  * 						Carousel Controls and Indicators
  *
  * =========================================================================================== */
-/* line 289, main.sass */
+/* line 287, main.sass */
 .carousel-control .glyphicon,
 .carousel-control .icon-prev,
 .carousel-control .icon-next {
@@ -335,17 +329,17 @@ header {
   font-family: serif;
 }
 
-/* line 303, main.sass */
+/* line 301, main.sass */
 .carousel-control .icon-prev:before {
   content: "\2039";
 }
 
-/* line 307, main.sass */
+/* line 305, main.sass */
 .carousel-control .icon-next:before {
   content: "\203a";
 }
 
-/* line 310, main.sass */
+/* line 308, main.sass */
 .carousel-control {
   background-image: none !important;
   color: transparent;
@@ -359,7 +353,7 @@ header {
   opacity: 0.2;
   filter: alpha(opacity=20);
 }
-/* line 317, main.sass */
+/* line 315, main.sass */
 .carousel-control:hover {
   color: transparent;
   text-decoration: none;
@@ -367,17 +361,17 @@ header {
   filter: alpha(opacity=100);
 }
 
-/* line 323, main.sass */
+/* line 321, main.sass */
 .carousel-control.right {
   background: transparent url("../images/right.png") no-repeat right center !important;
 }
 
-/* line 326, main.sass */
+/* line 324, main.sass */
 .carousel-control.left {
   background: transparent url("../images/left.png") no-repeat left center !important;
 }
 
-/* line 329, main.sass */
+/* line 327, main.sass */
 .carousel-indicators {
   display: none;
 }
@@ -387,50 +381,50 @@ header {
  * 						Section-1
  *
  * =========================================================================================== */
-/* line 342, main.sass */
+/* line 340, main.sass */
 section.bc-1 {
   padding: 60px 0 70px;
 }
 @media (max-width: 1195px) {
-  /* line 342, main.sass */
+  /* line 340, main.sass */
   section.bc-1 {
     padding: 25px 0 75px;
   }
 }
 @media (max-width: 480px) {
-  /* line 342, main.sass */
+  /* line 340, main.sass */
   section.bc-1 {
     padding: 25px 0 75px;
   }
 }
-/* line 349, main.sass */
+/* line 347, main.sass */
 section.bc-1 .hero-bg {
   background-color: #610000;
   min-height: 506.975px;
 }
 @media (max-width: 1195px) {
-  /* line 349, main.sass */
+  /* line 347, main.sass */
   section.bc-1 .hero-bg {
     padding: 5%;
   }
 }
 @media (max-width: 480px) {
-  /* line 349, main.sass */
+  /* line 347, main.sass */
   section.bc-1 .hero-bg {
     padding: 10%;
   }
 }
-/* line 356, main.sass */
+/* line 354, main.sass */
 section.bc-1 .bc-placeholder {
   margin: 0 auto;
   display: block;
 }
-/* line 357, main.sass */
+/* line 355, main.sass */
 section.bc-1 .bc-placeholder img {
   margin: 0 auto;
 }
 @media (min-width: 1200px) {
-  /* line 356, main.sass */
+  /* line 354, main.sass */
   section.bc-1 .bc-placeholder {
     position: absolute;
     margin: -18px 0 0 66px;
@@ -438,7 +432,7 @@ section.bc-1 .bc-placeholder img {
     height: 540px;
   }
 }
-/* line 367, main.sass */
+/* line 365, main.sass */
 section.bc-1 p {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -447,12 +441,12 @@ section.bc-1 p {
   padding: 0;
 }
 @media (min-width: 1200px) {
-  /* line 367, main.sass */
+  /* line 365, main.sass */
   section.bc-1 p {
     max-width: 457px;
   }
 }
-/* line 375, main.sass */
+/* line 373, main.sass */
 section.bc-1 h1 {
   margin: 80px 0 0 0;
   font-family: Georgia, Times, "Times New Roman", serif;
@@ -462,13 +456,13 @@ section.bc-1 h1 {
   margin-bottom: 18px;
 }
 @media (max-width: 1195px) {
-  /* line 375, main.sass */
+  /* line 373, main.sass */
   section.bc-1 h1 {
     margin: 40px 0 0 0;
   }
 }
 @media (max-width: 480px) {
-  /* line 375, main.sass */
+  /* line 373, main.sass */
   section.bc-1 h1 {
     margin: 40px 0 0 0;
   }
@@ -479,11 +473,11 @@ section.bc-1 h1 {
  * 						Section-2
  *
  * ===========================================================================================     */
-/* line 395, main.sass */
+/* line 393, main.sass */
 section.bc-2 {
   padding: 20px 0 80px;
 }
-/* line 397, main.sass */
+/* line 395, main.sass */
 section.bc-2 #slider_FD2 {
   width: auto !important;
 }
@@ -493,7 +487,7 @@ section.bc-2 #slider_FD2 {
  * 						Footer 
  *
  * =========================================================================================== */
-/* line 412, main.sass */
+/* line 410, main.sass */
 footer p a {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -503,20 +497,20 @@ footer p a {
   transition: all 0.2s ease, padding 0.8s linear;
   color: white;
 }
-/* line 415, main.sass */
+/* line 413, main.sass */
 footer p a:hover {
   color: #9cc6f7;
   text-decoration: none;
 }
 
-/* line 421, main.sass */
+/* line 419, main.sass */
 footer {
   background-color: #610000;
   color: white;
   padding: 26px 0 43px;
   font-size: 17px;
 }
-/* line 426, main.sass */
+/* line 424, main.sass */
 footer p {
   margin: 0;
   color: white;

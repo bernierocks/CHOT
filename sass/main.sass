@@ -126,11 +126,9 @@ header
     ===========================================================================================    
     
 .logo
-    +breakpoint(sm)
-        margin: 0 auto 20px
-    +breakpoint(xs)
-        margin: 0 0 -50px 0
-    
+    svg
+        +bcbreakpoint($min: 0, $max: 991px)
+            width: 298px
 /* 
     ===========================================================================================
 
@@ -243,7 +241,7 @@ header
     display: inline-block
     float: right
     padding-top: 20px
-
+    
     div
         width: 165px
         display: inline-block
