@@ -101,8 +101,8 @@ header {
 @media (min-width: 991px) {
   /* line 118, main.sass */
   header .container {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 
