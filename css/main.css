@@ -268,17 +268,22 @@ header {
   max-width: 250px;
 }
 
-/* line 239, main.sass */
-.modal-body {
-  text-align: center;
-}
-
 /* ===========================================================================================
  *
  * 						Login Form
  *
  * =========================================================================================== */
-/* line 249, main.sass */
+/* line 246, main.sass */
+.modal-body {
+  text-align: center;
+}
+/* line 248, main.sass */
+.modal-body #login div {
+  width: 100%;
+  padding: 10px;
+}
+
+/* line 253, main.sass */
 .bc-mobilelogin {
   font-size: 16px;
   padding: 10px;
@@ -288,44 +293,44 @@ header {
   margin: 0;
 }
 @media (min-width: 722px) {
-  /* line 249, main.sass */
+  /* line 253, main.sass */
   .bc-mobilelogin {
     display: none;
   }
 }
 
 @media (max-width: 722px) {
-  /* line 259, main.sass */
+  /* line 263, main.sass */
   .login-area {
     display: none;
   }
 }
-/* line 262, main.sass */
+/* line 266, main.sass */
 .login-area #login {
   display: inline-block;
   float: right;
   padding-top: 20px;
 }
 @media (max-width: 991px) {
-  /* line 262, main.sass */
+  /* line 266, main.sass */
   .login-area #login {
     padding-top: 28px;
   }
 }
 
-/* line 269, main.sass */
+/* line 273, main.sass */
 #login div {
   width: 165px;
   display: inline-block;
   margin-right: 5px;
 }
 @media (max-width: 992px) {
-  /* line 269, main.sass */
+  /* line 273, main.sass */
   #login div {
     width: 147px;
   }
 }
-/* line 276, main.sass */
+/* line 280, main.sass */
 #login input[type="submit"] {
   background-color: #610000;
   color: white;
@@ -335,7 +340,7 @@ header {
   border: none;
   margin-left: -4px;
 }
-/* line 284, main.sass */
+/* line 288, main.sass */
 #login input[type="text"], #login input[type="password"] {
   width: 100%;
   background: white;
@@ -352,7 +357,7 @@ header {
   color: #610000;
   font-family: "Open Sans", sans-serif;
 }
-/* line 299, main.sass */
+/* line 303, main.sass */
 #login a {
   position: absolute;
   margin: 32px 0 0 -3px;
@@ -364,7 +369,7 @@ header {
  * 						Carousel Controls and Indicators
  *
  * =========================================================================================== */
-/* line 312, main.sass */
+/* line 316, main.sass */
 .carousel-control .glyphicon,
 .carousel-control .icon-prev,
 .carousel-control .icon-next {
@@ -380,17 +385,17 @@ header {
   font-family: serif;
 }
 
-/* line 326, main.sass */
+/* line 330, main.sass */
 .carousel-control .icon-prev:before {
   content: "\2039";
 }
 
-/* line 330, main.sass */
+/* line 334, main.sass */
 .carousel-control .icon-next:before {
   content: "\203a";
 }
 
-/* line 333, main.sass */
+/* line 337, main.sass */
 .carousel-control {
   background-image: none !important;
   color: transparent;
@@ -404,7 +409,7 @@ header {
   opacity: 0.2;
   filter: alpha(opacity=20);
 }
-/* line 340, main.sass */
+/* line 344, main.sass */
 .carousel-control:hover {
   color: transparent;
   text-decoration: none;
@@ -412,17 +417,17 @@ header {
   filter: alpha(opacity=100);
 }
 
-/* line 346, main.sass */
+/* line 350, main.sass */
 .carousel-control.right {
   background: transparent url("../images/right.png") no-repeat right center !important;
 }
 
-/* line 349, main.sass */
+/* line 353, main.sass */
 .carousel-control.left {
   background: transparent url("../images/left.png") no-repeat left center !important;
 }
 
-/* line 352, main.sass */
+/* line 356, main.sass */
 .carousel-indicators {
   display: none;
 }
@@ -432,54 +437,54 @@ header {
  * 						Section-1
  *
  * =========================================================================================== */
-/* line 365, main.sass */
+/* line 369, main.sass */
 section.bc-1 {
   padding: 60px 0 70px;
 }
 @media (max-width: 1195px) {
-  /* line 365, main.sass */
+  /* line 369, main.sass */
   section.bc-1 {
     padding: 25px 0 75px;
   }
 }
 @media (max-width: 480px) {
-  /* line 365, main.sass */
+  /* line 369, main.sass */
   section.bc-1 {
     padding: 25px 0 75px;
   }
 }
-/* line 371, main.sass */
+/* line 375, main.sass */
 section.bc-1 .container {
   padding: 0;
 }
-/* line 374, main.sass */
+/* line 378, main.sass */
 section.bc-1 .hero-bg {
   background-color: #610000;
   min-height: 506.975px;
 }
 @media (max-width: 1195px) {
-  /* line 374, main.sass */
+  /* line 378, main.sass */
   section.bc-1 .hero-bg {
     padding: 5%;
   }
 }
 @media (max-width: 480px) {
-  /* line 374, main.sass */
+  /* line 378, main.sass */
   section.bc-1 .hero-bg {
     padding: 10%;
   }
 }
-/* line 381, main.sass */
+/* line 385, main.sass */
 section.bc-1 .bc-placeholder {
   margin: 0 auto;
   display: block;
 }
-/* line 382, main.sass */
+/* line 386, main.sass */
 section.bc-1 .bc-placeholder img {
   margin: 0 auto;
 }
 @media (min-width: 1200px) {
-  /* line 381, main.sass */
+  /* line 385, main.sass */
   section.bc-1 .bc-placeholder {
     position: absolute;
     margin: -18px 0 0 66px;
@@ -487,7 +492,7 @@ section.bc-1 .bc-placeholder img {
     height: 540px;
   }
 }
-/* line 392, main.sass */
+/* line 396, main.sass */
 section.bc-1 p {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -496,12 +501,12 @@ section.bc-1 p {
   padding: 0;
 }
 @media (min-width: 1200px) {
-  /* line 392, main.sass */
+  /* line 396, main.sass */
   section.bc-1 p {
     max-width: 457px;
   }
 }
-/* line 400, main.sass */
+/* line 404, main.sass */
 section.bc-1 h1 {
   margin: 80px 0 0 0;
   font-family: Georgia, Times, "Times New Roman", serif;
@@ -511,19 +516,19 @@ section.bc-1 h1 {
   margin-bottom: 18px;
 }
 @media (max-width: 1195px) {
-  /* line 400, main.sass */
+  /* line 404, main.sass */
   section.bc-1 h1 {
     margin: 40px 0 0 0;
   }
 }
 @media (max-width: 480px) {
-  /* line 400, main.sass */
+  /* line 404, main.sass */
   section.bc-1 h1 {
     margin: 40px 0 0 0;
   }
 }
 @media (max-width: 416px) {
-  /* line 400, main.sass */
+  /* line 404, main.sass */
   section.bc-1 h1 {
     font-size: 22px;
     margin-bottom: 12px;
@@ -535,11 +540,11 @@ section.bc-1 h1 {
  * 						Section-2
  *
  * ===========================================================================================     */
-/* line 422, main.sass */
+/* line 426, main.sass */
 section.bc-2 {
   padding: 20px 0 80px;
 }
-/* line 424, main.sass */
+/* line 428, main.sass */
 section.bc-2 #slider_FD2 {
   width: auto !important;
 }
@@ -549,7 +554,7 @@ section.bc-2 #slider_FD2 {
  * 						Footer 
  *
  * =========================================================================================== */
-/* line 439, main.sass */
+/* line 443, main.sass */
 footer p a {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -559,20 +564,20 @@ footer p a {
   transition: all 0.2s ease, padding 0.8s linear;
   color: white;
 }
-/* line 442, main.sass */
+/* line 446, main.sass */
 footer p a:hover {
   color: #9cc6f7;
   text-decoration: none;
 }
 
-/* line 448, main.sass */
+/* line 452, main.sass */
 footer {
   background-color: #610000;
   color: white;
   padding: 26px 0 43px;
   font-size: 17px;
 }
-/* line 453, main.sass */
+/* line 457, main.sass */
 footer p {
   margin: 0;
   color: white;
