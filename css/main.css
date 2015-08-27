@@ -3,20 +3,24 @@
  * 						Global Styles
  *
  * =========================================================================================== */
+/* line 33, main.sass */
 * {
   text-rendering: optimizeLegibility;
 }
 
+/* line 37, main.sass */
 body {
   background-color: white;
 }
 
+/* line 41, main.sass */
 p {
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
   color: #610000;
 }
 
+/* line 45, main.sass */
 h1 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
@@ -24,6 +28,7 @@ h1 {
   margin: 0 0 20px 0;
 }
 
+/* line 50, main.sass */
 .btn {
   background: #002a78;
   background: #002a78;
@@ -44,10 +49,12 @@ h1 {
   padding: 10px;
 }
 @media (min-width: 1200px) {
+  /* line 50, main.sass */
   .btn {
     margin: 30px auto 0 80px;
   }
 }
+/* line 71, main.sass */
 .btn:hover, .btn:active, .btn:focus {
   background: #003cab;
   border-style: Solid;
@@ -55,18 +62,22 @@ h1 {
   border-width: 2px;
 }
 
+/* line 78, main.sass */
 ::-webkit-input-placeholder {
   color: #610000 !important;
 }
 
+/* line 81, main.sass */
 :-moz-placeholder {
   color: #610000 !important;
 }
 
+/* line 84, main.sass */
 ::-moz-placeholder {
   color: #610000 !important;
 }
 
+/* line 87, main.sass */
 :-ms-input-placeholder {
   color: #610000 !important;
 }
@@ -76,6 +87,7 @@ h1 {
  * 						Header
  *
  * ===========================================================================================     */
+/* line 97, main.sass */
 header {
   padding: 15px 0 0 0;
 }
@@ -86,11 +98,13 @@ header {
  *
  * ===========================================================================================     */
 @media (max-width: 1195px) {
+  /* line 108, main.sass */
   .logo {
     margin: 0 auto 20px;
   }
 }
 @media (max-width: 480px) {
+  /* line 108, main.sass */
   .logo {
     margin: 0 0 -50px 0;
   }
@@ -101,20 +115,24 @@ header {
  *         Navigation    						
  *
  * =========================================================================================== */
+/* line 121, main.sass */
 #nav_menu {
   display: none;
 }
 @media (min-width: 1200px) {
+  /* line 121, main.sass */
   #nav_menu {
     margin-top: -40px;
   }
 }
 
 @media (min-width: 1200px) {
+  /* line 125, main.sass */
   .nav {
     float: right;
   }
 }
+/* line 129, main.sass */
 .nav li a {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -124,6 +142,7 @@ header {
   border-bottom: 3px solid transparent;
 }
 
+/* line 137, main.sass */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus, .nav > li > a:hover, .nav > li > a:focus {
   background-color: transparent;
   color: #610000;
@@ -131,15 +150,18 @@ header {
   border-bottom: 3px solid #610000;
 }
 
+/* line 144, main.sass */
 #mobile-toggle img {
   width: 32px;
 }
 
+/* line 148, main.sass */
 .modal-body {
   position: relative;
   padding: 20px 20px 40px;
 }
 
+/* line 152, main.sass */
 #mobileMenuWrapper {
   position: fixed;
   top: -1px;
@@ -155,15 +177,18 @@ header {
   transition: all 300ms cubic-bezier(1, 0.01, 0, 1) 0s;
 }
 
+/* line 166, main.sass */
 #mobileMenuWrapper.open {
   left: 0px;
   bottom: 0px;
 }
 
+/* line 170, main.sass */
 #mobileMenuWrapper #mobile-menu {
   overflow: auto;
   padding: 0px 20px 10px;
 }
+/* line 173, main.sass */
 #mobileMenuWrapper #mobile-menu > li#triggerClose {
   color: white;
   float: right;
@@ -172,6 +197,7 @@ header {
   cursor: pointer;
   transform: rotate(45deg);
 }
+/* line 180, main.sass */
 #mobileMenuWrapper #mobile-menu a {
   width: 100%;
   color: white;
@@ -179,17 +205,20 @@ header {
   margin: 10px 0 0 0;
   font-size: 14px;
 }
+/* line 186, main.sass */
 #mobileMenuWrapper ul {
   margin: 0px;
   padding: 0px;
   list-style-type: none;
 }
 
+/* line 191, main.sass */
 #mobileMenuWrapper ul.mDropdown {
   margin: 0 15px;
   display: none;
 }
 
+/* line 194, main.sass */
 #mobile-toggle {
   border: none;
   background: transparent;
@@ -197,6 +226,7 @@ header {
   cursor: pointer;
 }
 
+/* line 199, main.sass */
 #mobile-menu-col {
   top: 10px;
   right: 20px;
@@ -204,15 +234,18 @@ header {
   position: relative;
 }
 
+/* line 204, main.sass */
 #mobile-logo {
   width: 40%;
   float: left;
   margin-top: 27px;
   margin-bottom: 20px;
 }
+/* line 209, main.sass */
 #mobile-logo a {
   margin: 0 !important;
 }
+/* line 211, main.sass */
 #mobile-logo svg#logo {
   width: 250px;
   max-width: 250px;
@@ -224,23 +257,27 @@ header {
  *
  * =========================================================================================== */
 @media (min-width: 1200px) {
+  /* line 222, main.sass */
   #login {
     float: right;
     margin: 18px 0 0 0;
   }
 }
 @media (max-width: 1195px) {
+  /* line 222, main.sass */
   #login {
     display: block;
     margin: 0 auto;
     max-width: 407px;
   }
 }
+/* line 230, main.sass */
 #login div {
   min-width: 165px;
   display: inline-block;
   padding: 5px;
 }
+/* line 234, main.sass */
 #login input[type="submit"] {
   background-color: #610000;
   color: white;
@@ -249,6 +286,7 @@ header {
   padding: 10px 17px;
   border: none;
 }
+/* line 241, main.sass */
 #login input[type="text"], #login input[type="password"] {
   width: 100%;
   background: white;
@@ -265,9 +303,10 @@ header {
   color: #610000;
   font-family: "Open Sans", sans-serif;
 }
+/* line 256, main.sass */
 #login a {
   position: absolute;
-  margin: 47px 0 0 0px;
+  margin: 52px 0 0 0px;
   font-size: 10px;
 }
 
@@ -276,6 +315,7 @@ header {
  * 						Carousel Controls and Indicators
  *
  * =========================================================================================== */
+/* line 270, main.sass */
 .carousel-control .glyphicon,
 .carousel-control .icon-prev,
 .carousel-control .icon-next {
@@ -291,14 +331,17 @@ header {
   font-family: serif;
 }
 
+/* line 284, main.sass */
 .carousel-control .icon-prev:before {
   content: "\2039";
 }
 
+/* line 287, main.sass */
 .carousel-control .icon-next:before {
   content: "\203a";
 }
 
+/* line 290, main.sass */
 .carousel-control {
   background-image: none !important;
   color: transparent;
@@ -312,6 +355,7 @@ header {
   opacity: 0.2;
   filter: alpha(opacity=20);
 }
+/* line 297, main.sass */
 .carousel-control:hover {
   color: transparent;
   text-decoration: none;
@@ -319,14 +363,17 @@ header {
   filter: alpha(opacity=100);
 }
 
+/* line 303, main.sass */
 .carousel-control.right {
   background: transparent url("../images/right.png") no-repeat right center !important;
 }
 
+/* line 306, main.sass */
 .carousel-control.left {
   background: transparent url("../images/left.png") no-repeat left center !important;
 }
 
+/* line 309, main.sass */
 .carousel-indicators {
   display: none;
 }
@@ -336,41 +383,50 @@ header {
  * 						Section-1
  *
  * =========================================================================================== */
+/* line 322, main.sass */
 section.bc-1 {
   padding: 65px 0 75px;
 }
 @media (max-width: 1195px) {
+  /* line 322, main.sass */
   section.bc-1 {
     padding: 25px 0 75px;
   }
 }
 @media (max-width: 480px) {
+  /* line 322, main.sass */
   section.bc-1 {
     padding: 25px 0 75px;
   }
 }
+/* line 329, main.sass */
 section.bc-1 .hero-bg {
   background-color: #610000;
   min-height: 506.975px;
 }
 @media (max-width: 1195px) {
+  /* line 329, main.sass */
   section.bc-1 .hero-bg {
     padding: 5%;
   }
 }
 @media (max-width: 480px) {
+  /* line 329, main.sass */
   section.bc-1 .hero-bg {
     padding: 10%;
   }
 }
+/* line 336, main.sass */
 section.bc-1 .bc-placeholder {
   margin: 0 auto;
   display: block;
 }
+/* line 337, main.sass */
 section.bc-1 .bc-placeholder img {
   margin: 0 auto;
 }
 @media (min-width: 1200px) {
+  /* line 336, main.sass */
   section.bc-1 .bc-placeholder {
     position: absolute;
     margin: -18px 0 0 66px;
@@ -378,6 +434,7 @@ section.bc-1 .bc-placeholder img {
     height: 540px;
   }
 }
+/* line 347, main.sass */
 section.bc-1 p {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -386,10 +443,12 @@ section.bc-1 p {
   padding: 0;
 }
 @media (min-width: 1200px) {
+  /* line 347, main.sass */
   section.bc-1 p {
     max-width: 457px;
   }
 }
+/* line 355, main.sass */
 section.bc-1 h1 {
   margin: 80px 0 0 0;
   font-family: Georgia, Times, "Times New Roman", serif;
@@ -399,11 +458,13 @@ section.bc-1 h1 {
   margin-bottom: 18px;
 }
 @media (max-width: 1195px) {
+  /* line 355, main.sass */
   section.bc-1 h1 {
     margin: 40px 0 0 0;
   }
 }
 @media (max-width: 480px) {
+  /* line 355, main.sass */
   section.bc-1 h1 {
     margin: 40px 0 0 0;
   }
@@ -414,9 +475,11 @@ section.bc-1 h1 {
  * 						Section-2
  *
  * ===========================================================================================     */
+/* line 375, main.sass */
 section.bc-2 {
   padding: 20px 0 80px;
 }
+/* line 377, main.sass */
 section.bc-2 #slider_FD2 {
   width: auto !important;
 }
@@ -426,6 +489,7 @@ section.bc-2 #slider_FD2 {
  * 						Footer 
  *
  * =========================================================================================== */
+/* line 392, main.sass */
 footer p a {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -435,17 +499,20 @@ footer p a {
   transition: all 0.2s ease, padding 0.8s linear;
   color: white;
 }
+/* line 395, main.sass */
 footer p a:hover {
   color: #9cc6f7;
   text-decoration: none;
 }
 
+/* line 401, main.sass */
 footer {
   background-color: #610000;
   color: white;
   padding: 26px 0 43px;
   font-size: 17px;
 }
+/* line 407, main.sass */
 footer p {
   margin: 0;
   color: white;
