@@ -233,7 +233,7 @@ header {
   }
 }
 #login div {
-  max-width: 165px;
+  min-width: 165px;
   display: inline-block;
   padding: 5px;
 }
