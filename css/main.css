@@ -438,7 +438,7 @@ header {
   filter: alpha(opacity=20);
 }
 /* line 357, main.sass */
-.carousel-control:hover {
+.carousel-control:hover, .carousel-control:focus, .carousel-control:active, .carousel-control:visited {
   color: transparent;
   text-decoration: none;
   opacity: 1;
