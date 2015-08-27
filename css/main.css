@@ -262,7 +262,7 @@ header {
   float: right;
   padding-top: 20px;
 }
-@media (max-width: 743px) {
+@media screen and (max-width: 743px) {
   /* line 237, main.sass */
   #login {
     display: none;
