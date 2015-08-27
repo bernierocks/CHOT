@@ -274,7 +274,7 @@ header {
 @media (min-width: 1px) and (max-width: 899px) {
   /* line 237, main.sass */
   #login {
-    display: inline-block;
+    display: none;
     float: right;
   }
 }
