@@ -55,6 +55,22 @@ h1 {
   border-width: 2px;
 }
 
+::-webkit-input-placeholder {
+  color: #610000;
+}
+
+:-moz-placeholder {
+  color: #610000;
+}
+
+::-moz-placeholder {
+  color: #610000;
+}
+
+:-ms-input-placeholder {
+  color: #610000;
+}
+
 /* ===========================================================================================
  *
  * 						Header
@@ -224,7 +240,7 @@ header {
 #login input[type="submit"] {
   background-color: #610000;
   color: white;
-  border-radius: 5px;
+  border-radius: 7px;
   font-size: 16px;
   padding: 10px 17px;
   border: none;
@@ -237,9 +253,9 @@ header {
   border-color: #610000;
   border-color: #610000;
   border-width: 1px;
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
+  border-radius: 7px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
   padding: 9px;
   font-size: 16px;
   color: #610000;
