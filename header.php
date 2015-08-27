@@ -60,7 +60,7 @@
         
         
         <div class="row">  
-            <div class="col col-sm-12 col-md-12  hidden-md hidden-lg">   
+            <div class="col col-sm-12 col-md-12">   
                 <a href="#" class="bc-mobilelogin btn btn-primary btn-large" data-toggle="modal" data-target="#myModal"> 
                     Member Login
                 </a>
