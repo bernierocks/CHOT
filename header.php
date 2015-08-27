@@ -60,7 +60,7 @@
         
         
         <div class="row">  
-            <div class="col col-md-offset-3 col-sm-12 col-md-9 ">   
+            <div class="col col-sm-12 col-md-12 ">   
         
            <div id="main-menu" class="hidden-xs	hidden-sm">
             <? echo quick_menu(); ?>
