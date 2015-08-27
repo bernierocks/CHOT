@@ -61,12 +61,15 @@
         
         <div class="row">  
             <div class="col col-sm-12 col-md-12 ">   
-        
+                <a href="#" class="btn btn-primary btn-large" data-toggle="modal" data-target="#myModal"> 
+                    Member Login
+                </a>
            <div id="main-menu" class="hidden-xs	hidden-sm">
             <? echo quick_menu(); ?>
             </div><!-- /.main-menu -->
             
             <div id="mobile-menu-col">
+                    
                 <div id="mobile-toggle" class="mobileMenuTrigger hidden-md hidden-lg">
                     <img alt="" src="<?=$base;?>images/menu.svg">
                 </div>
