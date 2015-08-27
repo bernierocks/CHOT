@@ -243,21 +243,26 @@ header {
   float: right;
   position: relative;
   margin-right: -14px;
-  margin-top: -29px;
+}
+@media (min-width: 722px) and (max-width: 991px) {
+  /* line 221, main.sass */
+  #mobile-menu-col {
+    margin-top: -29px;
+  }
 }
 
-/* line 228, main.sass */
+/* line 229, main.sass */
 #mobile-logo {
   width: 40%;
   float: left;
   margin-top: 27px;
   margin-bottom: 20px;
 }
-/* line 233, main.sass */
+/* line 234, main.sass */
 #mobile-logo a {
   margin: 0 !important;
 }
-/* line 235, main.sass */
+/* line 236, main.sass */
 #mobile-logo svg#logo {
   width: 250px;
   max-width: 250px;
@@ -268,7 +273,7 @@ header {
  * 						Login Form
  *
  * =========================================================================================== */
-/* line 246, main.sass */
+/* line 247, main.sass */
 .bc-mobilelogin {
   font-size: 16px;
   padding: 10px;
@@ -278,44 +283,44 @@ header {
   margin: 0;
 }
 @media (min-width: 722px) {
-  /* line 246, main.sass */
+  /* line 247, main.sass */
   .bc-mobilelogin {
     display: none;
   }
 }
 
 @media (max-width: 722px) {
-  /* line 256, main.sass */
+  /* line 257, main.sass */
   .login-area {
     display: none;
   }
 }
-/* line 259, main.sass */
+/* line 260, main.sass */
 .login-area #login {
   display: inline-block;
   float: right;
   padding-top: 20px;
 }
 @media (max-width: 991px) {
-  /* line 259, main.sass */
+  /* line 260, main.sass */
   .login-area #login {
     padding-top: 28px;
   }
 }
 
-/* line 266, main.sass */
+/* line 267, main.sass */
 #login div {
   width: 165px;
   display: inline-block;
   margin-right: 5px;
 }
 @media (max-width: 992px) {
-  /* line 266, main.sass */
+  /* line 267, main.sass */
   #login div {
     width: 147px;
   }
 }
-/* line 273, main.sass */
+/* line 274, main.sass */
 #login input[type="submit"] {
   background-color: #610000;
   color: white;
@@ -325,7 +330,7 @@ header {
   border: none;
   margin-left: -4px;
 }
-/* line 281, main.sass */
+/* line 282, main.sass */
 #login input[type="text"], #login input[type="password"] {
   width: 100%;
   background: white;
@@ -342,7 +347,7 @@ header {
   color: #610000;
   font-family: "Open Sans", sans-serif;
 }
-/* line 296, main.sass */
+/* line 297, main.sass */
 #login a {
   position: absolute;
   margin: 32px 0 0 -3px;
@@ -354,7 +359,7 @@ header {
  * 						Carousel Controls and Indicators
  *
  * =========================================================================================== */
-/* line 309, main.sass */
+/* line 310, main.sass */
 .carousel-control .glyphicon,
 .carousel-control .icon-prev,
 .carousel-control .icon-next {
@@ -370,17 +375,17 @@ header {
   font-family: serif;
 }
 
-/* line 323, main.sass */
+/* line 324, main.sass */
 .carousel-control .icon-prev:before {
   content: "\2039";
 }
 
-/* line 327, main.sass */
+/* line 328, main.sass */
 .carousel-control .icon-next:before {
   content: "\203a";
 }
 
-/* line 330, main.sass */
+/* line 331, main.sass */
 .carousel-control {
   background-image: none !important;
   color: transparent;
@@ -394,7 +399,7 @@ header {
   opacity: 0.2;
   filter: alpha(opacity=20);
 }
-/* line 337, main.sass */
+/* line 338, main.sass */
 .carousel-control:hover {
   color: transparent;
   text-decoration: none;
@@ -402,17 +407,17 @@ header {
   filter: alpha(opacity=100);
 }
 
-/* line 343, main.sass */
+/* line 344, main.sass */
 .carousel-control.right {
   background: transparent url("../images/right.png") no-repeat right center !important;
 }
 
-/* line 346, main.sass */
+/* line 347, main.sass */
 .carousel-control.left {
   background: transparent url("../images/left.png") no-repeat left center !important;
 }
 
-/* line 349, main.sass */
+/* line 350, main.sass */
 .carousel-indicators {
   display: none;
 }
@@ -422,54 +427,54 @@ header {
  * 						Section-1
  *
  * =========================================================================================== */
-/* line 362, main.sass */
+/* line 363, main.sass */
 section.bc-1 {
   padding: 60px 0 70px;
 }
 @media (max-width: 1195px) {
-  /* line 362, main.sass */
+  /* line 363, main.sass */
   section.bc-1 {
     padding: 25px 0 75px;
   }
 }
 @media (max-width: 480px) {
-  /* line 362, main.sass */
+  /* line 363, main.sass */
   section.bc-1 {
     padding: 25px 0 75px;
   }
 }
-/* line 368, main.sass */
+/* line 369, main.sass */
 section.bc-1 .container {
   padding: 0;
 }
-/* line 371, main.sass */
+/* line 372, main.sass */
 section.bc-1 .hero-bg {
   background-color: #610000;
   min-height: 506.975px;
 }
 @media (max-width: 1195px) {
-  /* line 371, main.sass */
+  /* line 372, main.sass */
   section.bc-1 .hero-bg {
     padding: 5%;
   }
 }
 @media (max-width: 480px) {
-  /* line 371, main.sass */
+  /* line 372, main.sass */
   section.bc-1 .hero-bg {
     padding: 10%;
   }
 }
-/* line 378, main.sass */
+/* line 379, main.sass */
 section.bc-1 .bc-placeholder {
   margin: 0 auto;
   display: block;
 }
-/* line 379, main.sass */
+/* line 380, main.sass */
 section.bc-1 .bc-placeholder img {
   margin: 0 auto;
 }
 @media (min-width: 1200px) {
-  /* line 378, main.sass */
+  /* line 379, main.sass */
   section.bc-1 .bc-placeholder {
     position: absolute;
     margin: -18px 0 0 66px;
@@ -477,7 +482,7 @@ section.bc-1 .bc-placeholder img {
     height: 540px;
   }
 }
-/* line 389, main.sass */
+/* line 390, main.sass */
 section.bc-1 p {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -486,12 +491,12 @@ section.bc-1 p {
   padding: 0;
 }
 @media (min-width: 1200px) {
-  /* line 389, main.sass */
+  /* line 390, main.sass */
   section.bc-1 p {
     max-width: 457px;
   }
 }
-/* line 397, main.sass */
+/* line 398, main.sass */
 section.bc-1 h1 {
   margin: 80px 0 0 0;
   font-family: Georgia, Times, "Times New Roman", serif;
@@ -501,19 +506,19 @@ section.bc-1 h1 {
   margin-bottom: 18px;
 }
 @media (max-width: 1195px) {
-  /* line 397, main.sass */
+  /* line 398, main.sass */
   section.bc-1 h1 {
     margin: 40px 0 0 0;
   }
 }
 @media (max-width: 480px) {
-  /* line 397, main.sass */
+  /* line 398, main.sass */
   section.bc-1 h1 {
     margin: 40px 0 0 0;
   }
 }
 @media (max-width: 416px) {
-  /* line 397, main.sass */
+  /* line 398, main.sass */
   section.bc-1 h1 {
     font-size: 22px;
     margin-bottom: 12px;
@@ -525,11 +530,11 @@ section.bc-1 h1 {
  * 						Section-2
  *
  * ===========================================================================================     */
-/* line 419, main.sass */
+/* line 420, main.sass */
 section.bc-2 {
   padding: 20px 0 80px;
 }
-/* line 421, main.sass */
+/* line 422, main.sass */
 section.bc-2 #slider_FD2 {
   width: auto !important;
 }
@@ -539,7 +544,7 @@ section.bc-2 #slider_FD2 {
  * 						Footer 
  *
  * =========================================================================================== */
-/* line 436, main.sass */
+/* line 437, main.sass */
 footer p a {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -549,20 +554,20 @@ footer p a {
   transition: all 0.2s ease, padding 0.8s linear;
   color: white;
 }
-/* line 439, main.sass */
+/* line 440, main.sass */
 footer p a:hover {
   color: #9cc6f7;
   text-decoration: none;
 }
 
-/* line 445, main.sass */
+/* line 446, main.sass */
 footer {
   background-color: #610000;
   color: white;
   padding: 26px 0 43px;
   font-size: 17px;
 }
-/* line 450, main.sass */
+/* line 451, main.sass */
 footer p {
   margin: 0;
   color: white;
