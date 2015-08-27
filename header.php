@@ -46,12 +46,12 @@
        
        
        <div class="row">  
-        <div class="col col-sm-12 col-md-5">   
+        <div class="col col-sm-5 col-md-5">   
             <a href="#" alt="">
                 <?php readfile('images/logo.svg');?>
             </a>
         </div><!-- /.col5-->
-            <div class="col col-sm-12 col-md-7 hidden-xs">   
+            <div class="col col-sm-7 col-md-7 hidden-xs">   
                 <? echo log_in_form(); ?>         
 
 
