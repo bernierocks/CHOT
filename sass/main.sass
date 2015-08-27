@@ -236,9 +236,7 @@ header
 
 #login
     div
-        +bcbreakpoint($min: 0, $max: 899px)
-            min-width: 157px
-        min-width: 165px
+        width: 165px
         display: inline-block
         padding: 5px
 
@@ -267,17 +265,7 @@ header
     a
         position: absolute
         margin: 52px 0 0 0px
-        font-size: 10px
-    +breakpoint(md)
-        float: right
-        margin: 18px 0 0 0
-    +breakpoint(sm)
-        display: block
-        margin: 0 auto
-        max-width: 407px
-    +bcbreakpoint($min: 1px, $max: 899px)
-        display: none
-        float: right        
+        font-size: 10px  
         
 
 /* 
