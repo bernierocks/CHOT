@@ -61,7 +61,7 @@
         
         <div class="row">  
             <div class="col col-sm-12 col-md-12  hidden-md hidden-lg">   
-                <a href="#" class="btn btn-primary btn-large" data-toggle="modal" data-target="#myModal"> 
+                <a href="#" class="bc-mobilelogin btn btn-primary btn-large" data-toggle="modal" data-target="#myModal"> 
                     Member Login
                 </a>
            <div id="main-menu" class="hidden-xs	hidden-sm">
