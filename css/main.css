@@ -257,19 +257,25 @@ header {
     margin-top: -29px;
   }
 }
+@media (min-width: 395px) and (max-width: 721px) {
+  /* line 226, main.sass */
+  #mobile-menu-col {
+    margin-top: -101px;
+  }
+}
 
-/* line 234, main.sass */
+/* line 236, main.sass */
 #mobile-logo {
   width: 40%;
   float: left;
   margin-top: 27px;
   margin-bottom: 20px;
 }
-/* line 239, main.sass */
+/* line 241, main.sass */
 #mobile-logo a {
   margin: 0 !important;
 }
-/* line 241, main.sass */
+/* line 243, main.sass */
 #mobile-logo svg#logo {
   width: 250px;
   max-width: 250px;
@@ -280,19 +286,19 @@ header {
  * 						Login Form
  *
  * =========================================================================================== */
-/* line 251, main.sass */
+/* line 253, main.sass */
 .modal-body {
   text-align: center;
 }
 @media (max-width: 480px) {
-  /* line 254, main.sass */
+  /* line 256, main.sass */
   .modal-body #login div {
     width: 100%;
     padding: 10px;
   }
 }
 @media (max-width: 480px) {
-  /* line 258, main.sass */
+  /* line 260, main.sass */
   .modal-body #login input[type="submit"] {
     width: 95%;
     margin-left: 1px;
@@ -300,19 +306,19 @@ header {
   }
 }
 @media (max-width: 320px) {
-  /* line 258, main.sass */
+  /* line 260, main.sass */
   .modal-body #login input[type="submit"] {
     width: 93%;
   }
 }
 @media (max-width: 480px) {
-  /* line 265, main.sass */
+  /* line 267, main.sass */
   .modal-body #login a {
     margin: 40px 0 0 -3px;
   }
 }
 
-/* line 268, main.sass */
+/* line 270, main.sass */
 .bc-mobilelogin {
   font-size: 16px;
   padding: 10px;
@@ -322,44 +328,44 @@ header {
   margin: 0;
 }
 @media (min-width: 722px) {
-  /* line 268, main.sass */
+  /* line 270, main.sass */
   .bc-mobilelogin {
     display: none;
   }
 }
 
 @media (max-width: 722px) {
-  /* line 278, main.sass */
+  /* line 280, main.sass */
   .login-area {
     display: none;
   }
 }
-/* line 281, main.sass */
+/* line 283, main.sass */
 .login-area #login {
   display: inline-block;
   float: right;
   padding-top: 20px;
 }
 @media (max-width: 991px) {
-  /* line 281, main.sass */
+  /* line 283, main.sass */
   .login-area #login {
     padding-top: 28px;
   }
 }
 
-/* line 288, main.sass */
+/* line 290, main.sass */
 #login div {
   width: 165px;
   display: inline-block;
   margin-right: 5px;
 }
 @media (max-width: 992px) {
-  /* line 288, main.sass */
+  /* line 290, main.sass */
   #login div {
     width: 147px;
   }
 }
-/* line 295, main.sass */
+/* line 297, main.sass */
 #login input[type="submit"] {
   background-color: #610000;
   color: white;
@@ -369,7 +375,7 @@ header {
   border: none;
   margin-left: -4px;
 }
-/* line 303, main.sass */
+/* line 305, main.sass */
 #login input[type="text"], #login input[type="password"] {
   width: 100%;
   background: white;
@@ -386,7 +392,7 @@ header {
   color: #610000;
   font-family: "Open Sans", sans-serif;
 }
-/* line 318, main.sass */
+/* line 320, main.sass */
 #login a {
   position: absolute;
   margin: 32px 0 0 -3px;
@@ -398,7 +404,7 @@ header {
  * 						Carousel Controls and Indicators
  *
  * =========================================================================================== */
-/* line 331, main.sass */
+/* line 333, main.sass */
 .carousel-control .glyphicon,
 .carousel-control .icon-prev,
 .carousel-control .icon-next {
@@ -414,17 +420,17 @@ header {
   font-family: serif;
 }
 
-/* line 345, main.sass */
+/* line 347, main.sass */
 .carousel-control .icon-prev:before {
   content: "\2039";
 }
 
-/* line 349, main.sass */
+/* line 351, main.sass */
 .carousel-control .icon-next:before {
   content: "\203a";
 }
 
-/* line 352, main.sass */
+/* line 354, main.sass */
 .carousel-control {
   background-image: none !important;
   color: transparent;
@@ -438,7 +444,7 @@ header {
   opacity: 0.2;
   filter: alpha(opacity=20);
 }
-/* line 359, main.sass */
+/* line 361, main.sass */
 .carousel-control:hover, .carousel-control:focus, .carousel-control:active, .carousel-control:visited {
   color: transparent;
   text-decoration: none;
@@ -446,17 +452,17 @@ header {
   filter: alpha(opacity=100);
 }
 
-/* line 365, main.sass */
+/* line 367, main.sass */
 .carousel-control.right {
   background: transparent url("../images/right.png") no-repeat right center !important;
 }
 
-/* line 368, main.sass */
+/* line 370, main.sass */
 .carousel-control.left {
   background: transparent url("../images/left.png") no-repeat left center !important;
 }
 
-/* line 371, main.sass */
+/* line 373, main.sass */
 .carousel-indicators {
   display: none;
 }
@@ -466,54 +472,60 @@ header {
  * 						Section-1
  *
  * =========================================================================================== */
-/* line 384, main.sass */
+/* line 386, main.sass */
 section.bc-1 {
   padding: 60px 0 70px;
 }
 @media (max-width: 1195px) {
-  /* line 384, main.sass */
+  /* line 386, main.sass */
   section.bc-1 {
     padding: 25px 0 75px;
   }
 }
 @media (max-width: 480px) {
-  /* line 384, main.sass */
+  /* line 386, main.sass */
   section.bc-1 {
     padding: 25px 0 75px;
   }
 }
-/* line 390, main.sass */
+@media (min-width: 395px) and (max-width: 721px) {
+  /* line 386, main.sass */
+  section.bc-1 {
+    margin-top: -45px;
+  }
+}
+/* line 394, main.sass */
 section.bc-1 .container {
   padding: 0;
 }
-/* line 393, main.sass */
+/* line 397, main.sass */
 section.bc-1 .hero-bg {
   background-color: #610000;
   min-height: 506.975px;
 }
 @media (max-width: 1195px) {
-  /* line 393, main.sass */
+  /* line 397, main.sass */
   section.bc-1 .hero-bg {
     padding: 5%;
   }
 }
 @media (max-width: 480px) {
-  /* line 393, main.sass */
+  /* line 397, main.sass */
   section.bc-1 .hero-bg {
     padding: 10%;
   }
 }
-/* line 400, main.sass */
+/* line 404, main.sass */
 section.bc-1 .bc-placeholder {
   margin: 0 auto;
   display: block;
 }
-/* line 401, main.sass */
+/* line 405, main.sass */
 section.bc-1 .bc-placeholder img {
   margin: 0 auto;
 }
 @media (min-width: 1200px) {
-  /* line 400, main.sass */
+  /* line 404, main.sass */
   section.bc-1 .bc-placeholder {
     position: absolute;
     margin: -18px 0 0 66px;
@@ -521,7 +533,7 @@ section.bc-1 .bc-placeholder img {
     height: 540px;
   }
 }
-/* line 411, main.sass */
+/* line 415, main.sass */
 section.bc-1 p {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -530,12 +542,12 @@ section.bc-1 p {
   padding: 0;
 }
 @media (min-width: 1200px) {
-  /* line 411, main.sass */
+  /* line 415, main.sass */
   section.bc-1 p {
     max-width: 457px;
   }
 }
-/* line 419, main.sass */
+/* line 423, main.sass */
 section.bc-1 h1 {
   margin: 80px 0 0 0;
   font-family: Georgia, Times, "Times New Roman", serif;
@@ -545,19 +557,19 @@ section.bc-1 h1 {
   margin-bottom: 18px;
 }
 @media (max-width: 1195px) {
-  /* line 419, main.sass */
+  /* line 423, main.sass */
   section.bc-1 h1 {
     margin: 40px 0 0 0;
   }
 }
 @media (max-width: 480px) {
-  /* line 419, main.sass */
+  /* line 423, main.sass */
   section.bc-1 h1 {
     margin: 40px 0 0 0;
   }
 }
 @media (max-width: 416px) {
-  /* line 419, main.sass */
+  /* line 423, main.sass */
   section.bc-1 h1 {
     font-size: 22px;
     margin-bottom: 12px;
@@ -569,16 +581,16 @@ section.bc-1 h1 {
  * 						Section-2
  *
  * ===========================================================================================     */
-/* line 441, main.sass */
+/* line 445, main.sass */
 section.bc-2 {
   padding: 20px 0 80px;
 }
-/* line 443, main.sass */
+/* line 447, main.sass */
 section.bc-2 #slider_FD2 {
   width: auto !important;
 }
 
-/* line 446, main.sass */
+/* line 450, main.sass */
 .main-content {
   padding-top: 20px;
 }
@@ -588,7 +600,7 @@ section.bc-2 #slider_FD2 {
  * 						Footer 
  *
  * =========================================================================================== */
-/* line 459, main.sass */
+/* line 463, main.sass */
 footer p a {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -598,20 +610,20 @@ footer p a {
   transition: all 0.2s ease, padding 0.8s linear;
   color: white;
 }
-/* line 462, main.sass */
+/* line 466, main.sass */
 footer p a:hover {
   color: #9cc6f7;
   text-decoration: none;
 }
 
-/* line 468, main.sass */
+/* line 472, main.sass */
 footer {
   background-color: #610000;
   color: white;
   padding: 26px 0 43px;
   font-size: 17px;
 }
-/* line 473, main.sass */
+/* line 477, main.sass */
 footer p {
   margin: 0;
   color: white;
