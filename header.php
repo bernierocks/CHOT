@@ -59,7 +59,7 @@
         </div><!-- /.row -->
         
         
-        <div class="row">  
+        <div class="row bc-fix-01">  
             <div class="col col-sm-12 col-md-12">   
                 
            <div id="main-menu" class="hidden-xs	hidden-sm">
